@@ -33,18 +33,21 @@ class Player:
         self.gamefile = open('./labels/{0}.rpy'.format(name), 'r')
 
     def next_line(self):
+        blank_space = False
         for line in self.gamefile:
             self.state[1] += 1
             if line.strip()[0:3] == 'n "' and line.strip() != 'n ""':
                 normline = line.strip()[line.strip().find('"') + 1: -1]
                 normline = "{0}".format(normline)
+                if blank_space:
+                    normline = "\n{}".format(normline)
+                blank_space = False
                 yield [normline, 'new']
             elif line.strip() == 'n ""':
-                normline = ' '
-                yield [normline, 'blk']
+                blank_space = True
             elif line.strip() == 'nvl clear':
-                normline = '---'
-                yield [normline, 'clr']
+                blank_space = False
+                yield ['', 'clr']
             elif line.strip()[0:8] == 'extend "':
                 normline = line.strip()[line.strip().find('"') + 1: -1]
                 normline = "{0}".format(normline)
@@ -53,6 +56,7 @@ class Player:
                 self.set_file(line.split()[1])
                 self.set_state(0)
                 normline = '{}. Пройдено'.format(line.split()[1])
+                blank_space = True
                 yield [normline, 'cpl']
 
 
@@ -99,7 +103,11 @@ def callback_next(query):
         mid = query.message.message_id
         prev_text = query.message.text
         text, key = next(known_users[uid].next_line())
-        if key == 'new' or key == 'blk':
+        if key == 'new':
+            text = "{}\n{}".format(prev_text, text)
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
+            print('{0}: "{1}"'.format(botname, text))
+        elif key == 'blk':
             text = "{}\n{}".format(prev_text, text)
             bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
             print('{0}: "{1}"'.format(botname, text))
