@@ -3,6 +3,7 @@
 import telebot
 from telebot import types
 
+
 def listener(messages):
     for m in messages:
         if m.content_type == 'text':
@@ -10,11 +11,11 @@ def listener(messages):
 
 
 botname = 'vajupa_bot'
-known_users = {}
+known_users = {}  # TODO: save vars to file
 bot = telebot.TeleBot("811895373:AAFgMbNGMOjOEb4qaO8IeKtZ0jEG63BpeBk")
 
 next_button = types.InlineKeyboardButton(text='next', callback_data='next')
-next_mark = types.InlineKeyboardMarkup(row_width=1)  #keyboard
+next_mark = types.InlineKeyboardMarkup(row_width=1)  # keyboard
 next_mark.add(next_button)
 
 
@@ -34,23 +35,25 @@ class Player:
     def next_line(self):
         for line in self.gamefile:
             self.state[1] += 1
-            if line.strip()[0:3] == 'n "' and line.strip() != 'n "{nw}"':
+            if line.strip()[0:3] == 'n "' and line.strip() != 'n ""':
                 normline = line.strip()[line.strip().find('"') + 1: -1]
-                normline = "\n{0}".format(normline)
+                normline = "{0}".format(normline)
                 yield [normline, 'new']
+            elif line.strip() == 'n ""':
+                normline = ' '
+                yield [normline, 'blk']
             elif line.strip() == 'nvl clear':
                 normline = '---'
                 yield [normline, 'clr']
             elif line.strip()[0:8] == 'extend "':
                 normline = line.strip()[line.strip().find('"') + 1: -1]
-                normline = " {0}".format(normline)
+                normline = "{0}".format(normline)
                 yield [normline, 'ext']
             elif line.strip()[0:5] == 'jump ':
                 self.set_file(line.split()[1])
-                self.set_state([line.split()[1], '0'])
-            elif '$ save_name' in line:
-                normline = line.strip()[line.strip().find('"') + 1: -1]
-                yield [normline, 'sav']
+                self.set_state(0)
+                normline = '{}. Пройдено'.format(line.split()[1])
+                yield [normline, 'cpl']
 
 
 @bot.message_handler(commands=['help'])
@@ -86,33 +89,52 @@ def command_restart(message):
         print('{0}: <reg_error>'.format(botname))
 
 
-# new clr ext sav
+# new clr ext
 @bot.callback_query_handler(lambda query: query.data == "next")
 def callback_next(query):
     global known_users
     cid = query.message.chat.id
     uid = query.from_user.id
     if uid in known_users:
+        mid = query.message.message_id
+        prev_text = query.message.text
         text, key = next(known_users[uid].next_line())
-        bot.edit_message_text(text,chat_id=cid, message_id=query.message.message_id, reply_markup=next_mark)
-        print('{0}: "{1}"'.format(botname, text))
+        if key == 'new' or key == 'blk':
+            text = "{}\n{}".format(prev_text, text)
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
+            print('{0}: "{1}"'.format(botname, text))
+        elif key == 'ext':
+            text = "{} {}".format(prev_text, text)
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
+            print('{0}: "{1}"'.format(botname, text))
+        elif key == 'clr':
+            command_play(query)
+        elif key == 'cpl':
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
+            print('{0}: "{1}"'.format(botname, text))
     else:
         bot.send_message(cid, 'Вас нет в базе зарегистрированных пользователей, нажмите /start, чтобы начать')
         print('{0}: <reg_error>'.format(botname))
 
 
-@bot.message_handler(commands=['next'])
-def command_play(message):
+def command_play(query):
     global known_users
-    cid = message.chat.id
-    uid = message.from_user.id
-    if uid in known_users:
-        text = next(known_users[uid].next_line())[0]
+    cid = query.message.chat.id
+    uid = query.from_user.id
+    text, key = next(known_users[uid].next_line())
+    if key == 'new':
         bot.send_message(cid, text, reply_markup=next_mark)
         print('{0}: "{1}"'.format(botname, text))
-    else:
-        bot.send_message(cid, 'Вас нет в базе зарегистрированных пользователей, нажмите /start, чтобы начать')
-        print('{0}: <reg_error>'.format(botname))
+    elif key == 'blk':
+        command_play(query)
+    elif key == 'ext':
+        bot.send_message(cid, text, reply_markup=next_mark)
+        print('{0}: "{1}"'.format(botname, text))
+    elif key == 'clr':
+        command_play(query)
+    elif key == 'cpl':
+        bot.send_message(cid, text, reply_markup=next_mark)
+        print('{0}: "{1}"'.format(botname, text))
 
 
 # @bot.message_handler(func=lambda message: True, content_types=['text'])
