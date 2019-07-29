@@ -86,11 +86,26 @@ def command_restart(message):
         print('{0}: <reg_error>'.format(botname))
 
 
+# new clr ext sav
 @bot.callback_query_handler(lambda query: query.data == "next")
 def callback_next(query):
     global known_users
     cid = query.message.chat.id
     uid = query.from_user.id
+    if uid in known_users:
+        text, key = next(known_users[uid].next_line())
+        bot.edit_message_text(text,chat_id=cid, message_id=query.message.message_id, reply_markup=next_mark)
+        print('{0}: "{1}"'.format(botname, text))
+    else:
+        bot.send_message(cid, 'Вас нет в базе зарегистрированных пользователей, нажмите /start, чтобы начать')
+        print('{0}: <reg_error>'.format(botname))
+
+
+@bot.message_handler(commands=['next'])
+def command_play(message):
+    global known_users
+    cid = message.chat.id
+    uid = message.from_user.id
     if uid in known_users:
         text = next(known_users[uid].next_line())[0]
         bot.send_message(cid, text, reply_markup=next_mark)
@@ -98,20 +113,6 @@ def callback_next(query):
     else:
         bot.send_message(cid, 'Вас нет в базе зарегистрированных пользователей, нажмите /start, чтобы начать')
         print('{0}: <reg_error>'.format(botname))
-
-
-# @bot.message_handler(commands=['next'])
-# def command_play(message):
-#     global known_users
-#     cid = message.chat.id
-#     uid = message.from_user.id
-#     if uid in known_users:
-#         text = next(known_users[uid].next_line())[0]
-#         bot.send_message(cid, text, reply_markup=next_mark)
-#         print('{0}: "{1}"'.format(botname, text))
-#     else:
-#         bot.send_message(cid, 'Вас нет в базе зарегистрированных пользователей, нажмите /start, чтобы начать')
-#         print('{0}: <reg_error>'.format(botname))
 
 
 # @bot.message_handler(func=lambda message: True, content_types=['text'])
