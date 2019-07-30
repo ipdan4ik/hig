@@ -1,5 +1,4 @@
     $ save_name = "Пролог"
-    $ mouse_visible = False
     scene black
     stop ambient fadeout 1.0
     stop music fadeout 1.0

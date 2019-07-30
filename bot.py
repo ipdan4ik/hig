@@ -2,6 +2,7 @@
 
 import telebot
 from telebot import types
+import config
 
 
 def listener(messages):
@@ -10,60 +11,81 @@ def listener(messages):
             print(str(m.chat.username) + " [" + str(m.chat.id) + "]: " + m.text)
 
 
-botname = 'vajupa_bot'
-known_users = {}  # TODO: save vars to file
-bot = telebot.TeleBot("811895373:AAFgMbNGMOjOEb4qaO8IeKtZ0jEG63BpeBk")
+known_users = {}  # TODO: сохранить переменные в файл
+bot = telebot.TeleBot(config.access_token)
+botname = bot.get_me().username
 
-next_button = types.InlineKeyboardButton(text='next', callback_data='next')
-next_mark = types.InlineKeyboardMarkup(row_width=1)  # keyboard
+start_button = types.InlineKeyboardButton(text='Начать', callback_data='start')
+start_mark = types.InlineKeyboardMarkup(row_width=1)
+start_mark.add(start_button)
+next_button = types.InlineKeyboardButton(text='Далее', callback_data='next')
+next_mark = types.InlineKeyboardMarkup(row_width=1)
 next_mark.add(next_button)
 
 
 class Player:
     def __init__(self, uid):
         self.uid = uid
-        self.state = ['onikakushi_prologue', 0]
-        self.gamefile = open('./labels/onikakushi_prologue.rpy', 'r')
+        self.state = ['test_label', 0]
+        self.gamefile = open('./labels/test_label.rpy', 'r')
+        self.save_name = 'Начало'
+        self.blank_space = False
 
     def set_state(self, state):
-        self.state[1] = state
+        self.state[1] = int(state)
 
     def set_file(self, name):
         self.state[0] = name
         self.gamefile = open('./labels/{0}.rpy'.format(name), 'r')
 
     def next_line(self):
-        blank_space = False
         for line in self.gamefile:
             self.state[1] += 1
-            if line.strip()[0:3] == 'n "' and line.strip() != 'n ""':
-                normline = line.strip()[line.strip().find('"') + 1: -1]
+            if line.strip()[0:3] == 'n "' and line.strip() not in ['n ""', 'n "{nw}"']:       # Обычный текст, с новой строки
+                normline = format_text(line)
+                normline = normline[normline.find('"') + 1: -1]
                 normline = "{0}".format(normline)
-                if blank_space:
+                if self.blank_space:
                     normline = "\n{}".format(normline)
-                blank_space = False
+                self.blank_space = False
                 yield [normline, 'new']
-            elif line.strip() == 'n ""':
-                blank_space = True
-            elif line.strip() == 'nvl clear':
-                blank_space = False
+            elif line.strip() == 'n ""' or line.strip() == 'n "{nw}"':      # Пустая строка
+                self.blank_space = True
+            elif line.strip() == 'nvl clear':                               # Очистка поля вывода
+                self.blank_space = False
                 yield ['', 'clr']
             elif line.strip()[0:8] == 'extend "':
-                normline = line.strip()[line.strip().find('"') + 1: -1]
+                normline = format_text(line)
+                normline = normline[normline.find('"') + 1: -1]
                 normline = "{0}".format(normline)
                 yield [normline, 'ext']
-            elif line.strip()[0:5] == 'jump ':
+            elif line.strip()[0:5] == 'jump ':                              # Переход в другой файл
                 self.set_file(line.split()[1])
                 self.set_state(0)
-                normline = '{}. Пройдено'.format(line.split()[1])
-                blank_space = True
+                normline = '\n{}. Пройдено'.format(self.save_name)
+                normline = normline.replace('\\n', '\n')
+                self.blank_space = False
                 yield [normline, 'cpl']
+            elif '$ save_name ' in line:                                    # Запись сохранения
+                self.save_name = line.strip()[15:-1]
+# TODO: переход по главам, окно подсказок и заметок
+
+
+def format_text(text):
+    import re
+    text = text.replace('\\n', '\n')
+    text = re.sub('{/?i}', '_', text)
+    text = re.sub('{/?b}', '*', text)
+    text = re.sub('with .*', '', text)
+    text = re.sub('{.*?}', '', text)
+    text = text.strip()
+    return text
 
 
 @bot.message_handler(commands=['help'])
 def command_help(message, run_from='bot'):
     cid = message.chat.id
-    bot.send_message(cid, open("start.txt", "r").read(), reply_markup=next_mark)
+    bot.send_message(cid, open("start.txt", "r").read(), reply_markup=start_mark)
     if run_from == 'bot':
         print('{0}: <help_text>'.format(botname))
 
@@ -84,16 +106,15 @@ def command_restart(message):
     cid = message.chat.id
     uid = message.from_user.id
     if uid in known_users:
-        known_users[uid].set_state('onikakushi_prologue, 0')
-        bot.send_message(cid, 'Прогресс сброшен!')
-        print('{0}: <progress_restart>'.format(botname))
-        command_play(message)
+        known_users[uid].set_state(0)
+        known_users[uid].set_file('onikakushi_prologue')
+        bot.send_message(cid, 'Прогресс сброшен!', reply_markup=start_mark)
+        print('{0}: <progress_restart>'.format(botname), )
     else:
         bot.send_message(cid, 'Вас нет в базе зарегистрированных пользователей, нажмите /start, чтобы начать')
         print('{0}: <reg_error>'.format(botname))
 
 
-# new clr ext
 @bot.callback_query_handler(lambda query: query.data == "next")
 def callback_next(query):
     global known_users
@@ -104,44 +125,46 @@ def callback_next(query):
         prev_text = query.message.text
         text, key = next(known_users[uid].next_line())
         if key == 'new':
-            text = "{}\n{}".format(prev_text, text)
-            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
             print('{0}: "{1}"'.format(botname, text))
+            text = "{}\n{}".format(prev_text, text).encode('utf-8')
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, parse_mode='Markdown', reply_markup=next_mark)
         elif key == 'blk':
-            text = "{}\n{}".format(prev_text, text)
-            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
             print('{0}: "{1}"'.format(botname, text))
+            text = "{}\n{}".format(prev_text, text).encode('utf-8')
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, parse_mode='Markdown', reply_markup=next_mark)
         elif key == 'ext':
-            text = "{} {}".format(prev_text, text)
-            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
             print('{0}: "{1}"'.format(botname, text))
+            text = "{} {}".format(prev_text, text).encode('utf-8')
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, parse_mode='Markdown', reply_markup=next_mark)
         elif key == 'clr':
             command_play(query)
         elif key == 'cpl':
-            bot.edit_message_text(text, chat_id=cid, message_id=mid, reply_markup=next_mark)
             print('{0}: "{1}"'.format(botname, text))
+            text = "{}\n{}".format(prev_text, text).encode('utf-8')
+            bot.edit_message_text(text, chat_id=cid, message_id=mid, parse_mode='Markdown', reply_markup=start_mark)
     else:
         bot.send_message(cid, 'Вас нет в базе зарегистрированных пользователей, нажмите /start, чтобы начать')
         print('{0}: <reg_error>'.format(botname))
 
 
+@bot.callback_query_handler(lambda query: query.data == "start")
 def command_play(query):
     global known_users
     cid = query.message.chat.id
     uid = query.from_user.id
     text, key = next(known_users[uid].next_line())
     if key == 'new':
-        bot.send_message(cid, text, reply_markup=next_mark)
+        bot.send_message(cid, text, parse_mode='Markdown', reply_markup=next_mark)
         print('{0}: "{1}"'.format(botname, text))
     elif key == 'blk':
         command_play(query)
     elif key == 'ext':
-        bot.send_message(cid, text, reply_markup=next_mark)
+        bot.send_message(cid, text, parse_mode='Markdown', reply_markup=next_mark)
         print('{0}: "{1}"'.format(botname, text))
     elif key == 'clr':
         command_play(query)
     elif key == 'cpl':
-        bot.send_message(cid, text, reply_markup=next_mark)
+        bot.send_message(cid, text, parse_mode='Markdown', reply_markup=start_mark)
         print('{0}: "{1}"'.format(botname, text))
 
 
