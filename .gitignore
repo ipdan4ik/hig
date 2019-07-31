@@ -125,7 +125,6 @@ dmypy.json
 
 /game
 *.tmp
-*.pckl
 config.py
 test/
 .idea/

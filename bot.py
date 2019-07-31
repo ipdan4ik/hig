@@ -5,11 +5,8 @@ from telebot import types
 import config
 
 
-def listener(messages):
-    for m in messages:
-        if m.content_type == 'text':
-            print(str(m.chat.username) + " [" + str(m.chat.id) + "]: " + m.text)
-
+if hasattr(config, 'proxy_server'):
+    telebot.apihelper.proxy = config.proxy_server   # настройка прокси сервера
 
 known_users = {}  # TODO: сохранить переменные в файл
 bot = telebot.TeleBot(config.access_token)
@@ -41,7 +38,7 @@ class Player:
     def next_line(self):
         for line in self.gamefile:
             self.state[1] += 1
-            if line.strip()[0:3] == 'n "' and line.strip() not in ['n ""', 'n "{nw}"']:       # Обычный текст, с новой строки
+            if line.strip()[0:3] == 'n "' and line.strip() not in ['n ""', 'n "{nw}"']:  # Обычный текст, с новой строки
                 normline = format_text(line)
                 normline = normline[normline.find('"') + 1: -1]
                 normline = "{0}".format(normline)
@@ -82,12 +79,19 @@ def format_text(text):
     return text
 
 
+def get_username(user):
+    name = user.first_name
+    if hasattr(user, 'username'):
+        name = user.username
+    elif hasattr(user, 'last_name'):
+        name = name + user.last_name
+    return name
+
+
 @bot.message_handler(commands=['help'])
-def command_help(message, run_from='bot'):
+def command_help(message):
     cid = message.chat.id
     bot.send_message(cid, open("start.txt", "r").read(), reply_markup=start_mark)
-    if run_from == 'bot':
-        print('{0}: <help_text>'.format(botname))
 
 
 @bot.message_handler(commands=['start'])
@@ -97,7 +101,7 @@ def command_start(message):
     if uid not in known_users:
         known_users[uid] = Player(uid)
         print('[NEW] id: {0}, name: {1}'.format(message.from_user.id, message.from_user.username))
-    command_help(message, 'command_start')
+    command_help(message)
 
 
 @bot.message_handler(commands=['restart'])
@@ -168,11 +172,11 @@ def command_play(query):
         print('{0}: "{1}"'.format(botname, text))
 
 
-# @bot.message_handler(func=lambda message: True, content_types=['text'])
-# def command_default(message):
-#     cid = message.chat.id
-#     bot_msg = bot.send_message(cid, 'Привет')
-#     bot.edit_message_text("{} ... Edited!".format(bot_msg.text), chat_id=cid, message_id=bot_msg.message_id)
+def listener(messages):
+    for m in messages:
+        if m.content_type == 'text':
+            print(str(get_username(m.from_user)) + " [" + str(m.chat.id) + "]: " + m.text)
 
 
+bot.set_update_listener(listener)
 bot.polling()
