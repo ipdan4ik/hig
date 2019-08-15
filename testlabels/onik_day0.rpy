@@ -1,5 +1,5 @@
 $ save_name = "Глава о Похищенных Демонами.\nПролог."
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "\n\n\n\n\n\n\n\n{space=80}...Кажется, кто-то просит прощения.\n{space=220}Снова и снова."
 nvl clear
 n "За что же она извиняется?"
@@ -66,25 +66,25 @@ n "\"Кейти, мы почти на месте."
 extend " Вставай.\""
 n "Отцовский тычок наконец меня разбудил."
 nvl clear
-image AgADAgAD46wxGxQSSEq9xtYDkzc6b4zFtw8ABAEAAwIAA20AA7v1AQABFgQ # scenes/bg_012.jpg
+image AgADAgADuqsxGyRLsEphxA-sMDH-wuneug8ABAEAAwIAA20AAy_lAAIWBA # scenes/bg_012.jpg
 n "Похоже, наш поезд в конце концов доехал до конечной остановки."
 nvl clear
 n "Многие часы прошли в поездке на Синкансэне и пригородных поездах."
 n "От вида за окном сомневаешься, та ли это страна, из которой выехали полдня назад..."
 n "Да что там страна, я не могу поверить, что это всё тот же век."
 nvl clear
-image AgADAgAD5KwxGxQSSEpKfkrl8tWDLeLNtw8ABAEAAwIAA20AA2HwAQABFgQ # scenes/bg_124.jpg
+image AgADAgADJ6sxGxJvsUqByZgkuYxNUcD4tw8ABAEAAwIAA20AA9xWAgABFgQ # scenes/bg_124.jpg
 n "Но мы ещё не приехали. Отсюда надо подняться в гору на машине."
 nvl clear
-image AgADAgAD5awxGxQSSEqJZSGrh6XTEa_iuQ8ABAEAAwIAA20AAxeSAAIWBA # scenes/bg_208.jpg
-image AgADAgADgasxGw9ZUUrjibSNwUHeQmjxug8ABAEAAwIAA20AA2iAAAIWBA # scenes/bg_042.jpg
-image AgADAgADJawxGxQSSEoDHFMGzQrxrNLJuQ8ABAEAAwIAA20AA06RAAIWBA # scenes/bg_038.jpg
+image AgADAgADKKsxGxJvsUqvvH-Nf1Tucu3vtw8ABAEAAwIAA20AA_tVAgABFgQ # scenes/bg_208.jpg
+image AgADAgADKasxGxJvsUpGfyBAs-MdyPA6hA8ABAEAAwIAA20AAzdxBAABFgQ # scenes/bg_042.jpg
+image AgADAgADKqsxGxJvsUr-zbVgGwGTS5378Q4ABAEAAwIAA20AA0GHAgABFgQ # scenes/bg_038.jpg
 n "И, когда неожиданно расходится густой лес, сквозь который проложена дорога, взору открывается..."
 nvl clear
-image AgADAgADEasxGxvgSEo1cRVVBurwt7tKhA8ABAEAAwIAA20AAw8IBAABFgQ # scenes/bg_216.jpg
+image AgADAgADK6sxGxJvsUoRJUa0QU8JAaughQ8ABAEAAwIAA20AA5a-AwABFgQ # scenes/bg_216.jpg
 n "Мой новый дом — Хинамидзава."
 nvl clear
-image AgADAgAD5qwxGxQSSEqk5NfnqvRYDfTcuQ8ABAEAAwIAA20AA5ySAAIWBA # scenes/bg_216.jpg | | cinema 
-image AgADAgAD56wxGxQSSEqCpvv9lvTB5-7x8Q4ABAEAAwIAA20AAy8jAgABFgQ # scenes/bg_216.jpg | | cinema title02 
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADLKsxGxJvsUoOFNJQSu7Jj7rcug8ABAEAAwIAA20AAwbqAAIWBA # scenes/bg_216.jpg | | cinema 
+image AgADAgADLasxGxJvsUpgBnRe8Jj_28zauQ8ABAEAAwIAA20AA0X4AAIWBA # scenes/bg_216.jpg | | cinema title02 
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 jump onik_day01

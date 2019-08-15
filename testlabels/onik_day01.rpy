@@ -1,5 +1,5 @@
 $ save_name = "Глава о Похищенных Демонами.\nДень Первый, утро"
-image AgADAgADbqwxGxQSSEoDunQHZadjgqvwtw8ABAEAAwIAA20AA7f4AQABFgQ # scenes/bg_080.jpg
+image AgADAgADEKsxGxJvsUqQ93x2PfTTUuzgtw8ABAEAAwIAA20AA8NYAgABFgQ # scenes/bg_080.jpg
 n "Хоть уже лето, по утрам воздух всё ещё ледяной."
 n "Но зато он достаточно свеж, чтобы дышать им вволю."
 nvl clear
@@ -12,9 +12,9 @@ n "{nw}"
 n "Я ещё раз глубоко вздохнул, заполняя им лёгкие."
 n "С переездом в Хинамидзаву я впервые узнал, что даже у воздуха бывает свой вкус."
 nvl clear
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "Проворно собрав учебники, я спустился к завтраку."
-image AgADAgADb6wxGxQSSEp_fC8w9JBRMNHttw8ABAEAAwIAA20AAwvvAQABFgQ # scenes/bg_210.jpg
+image AgADAgADLqsxGxJvsUqzFIqTXAABuxhe1rcPAAQBAAMCAANtAANmWwIAARYE # scenes/bg_210.jpg
 n "Там была только мама; бати же нигде не видать."
 n "Скорее всего, так и работал у себя до утра."
 nvl clear
@@ -74,14 +74,14 @@ n "...Только подумать, во сколько же она каждо�
 nvl clear
 n "Дохлебав остатки мисо-супа, я помчался к двери."
 nvl clear
-image AgADAgADcKwxGxQSSEqEF9RMxdfcKG6xhQ8ABAEAAwIAA20AA5JVAwABFgQ # scenes/bg_117.jpg
+image AgADAgADL6sxGxJvsUoxgHQEh785DjLwug8ABAEAAwIAA20AA6HlAAIWBA # scenes/bg_117.jpg
 n "\"Обязательно поблагодари Рэну-тян за её огурчики!\""
 n "Хм, верно, сегодняшние солёные огурцы были не из магазина."
 n "Кабы знал, то ел их помедленнее, отдав им должное."
 n "\"Ладно!\""
 nvl clear
-image AgADAgADcawxGxQSSEqTmXQ8dHWjo97mug8ABAEAAwIAA20AA7J-AAIWBA # scenes/bg_067.jpg
-image AgADAgADcqwxGxQSSErcGRwMvplaEFXQtw8ABAEAAwIAA20AA-jzAQABFgQ # scenes/bg_067.jpg | rena | 
+image AgADAgADMKsxGxJvsUqhEE3uFseN_GgCuA8ABAEAAwIAA20AA8JQAgABFgQ # scenes/bg_067.jpg
+image AgADAgADMasxGxJvsUrLLzx39mi5bLLhuQ8ABAEAAwIAA20AAwr7AAIWBA # scenes/bg_067.jpg | rena | 
 n "\"Кейти-кууун!"
 extend " До-брое у-трооо!\""
 n "Её жизнерадостное приветствие так подходит утренней свежести."
@@ -96,7 +96,7 @@ extend " А ведь я всегда тебя жду...\""
 n "\"Именно так. Я тебя брошу."
 extend " Определённо.\""
 nvl clear
-image AgADAgADc6wxGxQSSEoiaM5zrwH85__utw8ABAEAAwIAA20AA9L0AQABFgQ # scenes/bg_067.jpg | rena | 
+image AgADAgADMqsxGxJvsUo7eVIqKDSXUNXcuQ8ABAEAAwIAA20AA3X5AAIWBA # scenes/bg_067.jpg | rena | 
 n "\"Ты так бессердечен, но почему?{w=0.4}{nw}"
 extend " ...почему?\""
 n "Рэна, кажется, слегка обиделась."
@@ -106,7 +106,7 @@ n "\"Шучу. Само собой, я тебя подожду.\""
 n "И всю её напряжённость тут же как ветром сдуло."
 n "И она в мгновение ока покрылась румянцем."
 nvl clear
-image AgADAgADdKwxGxQSSEpnHiSDvbxq9rD58Q4ABAEAAwIAA20AAw8bAgABFgQ # scenes/bg_067.jpg | rena | 
+image AgADAgADu6sxGyRLsEqbUyUxPdX5ML_Ntw8ABAEAAwIAA20AA-dcAgABFgQ # scenes/bg_067.jpg | rena | 
 n "\"А... ой... с-спасибо...\""
 n "\"Я буду ждать, пока ты не придёшь."
 extend " Хоть целую вечность.\""
@@ -125,7 +125,7 @@ n "Вот беда-то будет, коль ей когда-нибудь оди
 n "Должно быть, покраснеет и упадёт в обморок..."
 nvl clear
 n "\"Кстати, мама сказала мне передать: «Спасибо за огурцы».\""
-image AgADAgADcqwxGxQSSErcGRwMvplaEFXQtw8ABAEAAwIAA20AA-jzAQABFgQ # scenes/bg_067.jpg | rena | 
+image AgADAgADMasxGxJvsUrLLzx39mi5bLLhuQ8ABAEAAwIAA20AAwr7AAIWBA # scenes/bg_067.jpg | rena | 
 n "\"О-ой, да не за что."
 extend " Как они?"
 extend " Не слишком солёные?\""
@@ -138,7 +138,7 @@ nvl clear
 n "\"Сначала хотел бы спросить."
 extend " Огурцы ты засаливала?"
 extend " Или твоя мама?\""
-image AgADAgADc6wxGxQSSEoiaM5zrwH85__utw8ABAEAAwIAA20AA9L0AQABFgQ # scenes/bg_067.jpg | rena | 
+image AgADAgADMqsxGxJvsUo7eVIqKDSXUNXcuQ8ABAEAAwIAA20AA3X5AAIWBA # scenes/bg_067.jpg | rena | 
 n "\"Э?{w=0.6} Мм?.. Почему ты спрашиваешь?"
 extend " О-они всё-таки...{w=0.6} были слишком солёные?..\""
 n "Ну а теперь она совсем разнервничалась."
@@ -158,7 +158,7 @@ n "\"Объедение.\""
 n "\"Э?\""
 n "\"Даже лучше, чем в прошлый раз. Вместе с рисом пошли на ура!\""
 nvl clear
-image AgADAgADdKwxGxQSSEpnHiSDvbxq9rD58Q4ABAEAAwIAA20AAw8bAgABFgQ # scenes/bg_067.jpg | rena | 
+image AgADAgADu6sxGyRLsEqbUyUxPdX5ML_Ntw8ABAEAAwIAA20AA-dcAgABFgQ # scenes/bg_067.jpg | rena | 
 n "Она вновь запылала."
 extend " Такая застенчивая."
 n "Её так легко дразнить."
@@ -173,13 +173,13 @@ nvl clear
 n "Эту странную девочку, которая в мгновение ока начинает краснеть и волноваться, зовут Рюгу Рэна."
 n "Мы и месяца не знакомы, однако я уже понял, что необычное у ней не только имя."
 nvl clear
-image AgADAgADfKsxGw9ZUUokuPGWIxQEYRfWtw8ABAEAAwIAA20AA2byAQABFgQ # scenes/bg_066.jpg
-image AgADAgADX6sxGxvgSEqmWvNifmkrGQzLtw8ABAEAAwIAA20AA_HyAQABFgQ # scenes/bg_066.jpg | rena | 
+image AgADAgADM6sxGxJvsUpshwr7f-UBQqnQug8ABAEAAwIAA20AA1z6AAIWBA # scenes/bg_066.jpg
+image AgADAgADNKsxGxJvsUqYkgfJMwR5AAE72LoPAAQBAAMCAANtAAPG9gACFgQ # scenes/bg_066.jpg | rena | 
 n "\"Мии-тяяян! До-брое уу-тро!\""
 n "На следующей точке встречи нас поджидала Мион."
 n "Заметив нас, она замахала рукой и пошла навстречу."
 nvl clear
-image AgADAgADsqwxGxQSSEqtxsIOEkBuGwxChA8ABAEAAwIAA20AA_sQBAABFgQ # scenes/bg_066.jpg | mion rena | 
+image AgADAgADNasxGxJvsUqDXNzFycrwD3Lwug8ABAEAAwIAA20AA7TlAAIWBA # scenes/bg_066.jpg | mion rena | 
 n "\"О, наконец-то! Опозда-а-али!\""
 n "\"Эй, разве не ты ли всё время опаздываешь?!\""
 n "{nw}"
@@ -191,7 +191,7 @@ n "\"Утречко, Рэна. Давно не виделись, Кей-тян!"
 extend " Сколько лет-то прошло?\""
 n "\"Я всего на два дня уезжал!\""
 nvl clear
-image AgADAgADYKsxGxvgSErcIHcO7KXbBD7ZuQ8ABAEAAwIAA20AA7yRAAIWBA # scenes/bg_066.jpg | mion rena | 
+image AgADAgADvKsxGyRLsEpL4NfnfkFyzzKuhQ8ABAEAAwIAA20AAzC_AwABFgQ # scenes/bg_066.jpg | mion rena | 
 n "\"А-ха-ха!"
 extend " Всего-то?"
 extend " А какой малюсенький милашка был в прошлый раз!\""
@@ -203,7 +203,7 @@ n "Да, кстати, давайте кое-что проясним: я нич�
 nvl clear
 n "\"А, ну да, вообще-то я вырос в неплохого мужчину."
 extend " Сам себя удивляю.\""
-image AgADAgADYasxGxvgSEok8rwEHlqtxujhtw8ABAEAAwIAA20AA0_4AQABFgQ # scenes/bg_066.jpg | mion rena | 
+image AgADAgADNqsxGxJvsUqmI7h-RKL7Eg_euQ8ABAEAAwIAA20AA8b1AAIWBA # scenes/bg_066.jpg | mion rena | 
 n "\"Ещё бы — не только подрос, но и бороду отрастил~{font=DejaVuSans.ttf}☆{/font}!\""
 n "\"Угу, а особенно бодро чувствую себя по утрам."
 extend " Смотри, устрою тебе в другой раз представление, попробуй тогда меня задобрить!\""
@@ -217,14 +217,14 @@ extend " Пора бы и показать себя!"
 extend " Смотри не жалей потом, ясно?!!.....\""
 nvl clear
 n "Стоило мне положить руку на молнию ширинки, как, в спешке комкая слова, вмешалась Рэна."
-image AgADAgADs6wxGxQSSEoRe8Omh5f_g2WBCA4ABAEAAwIAA20AA4VcAwABFgQ # scenes/bg_066.jpg | mion rena | 
+image AgADAgADN6sxGxJvsUrYkgvQQwWOcZOBCA4ABAEAAwIAA20AA2y3AwABFgQ # scenes/bg_066.jpg | mion rena | 
 n "\"Эй,{w=0.2} эй, эй...{w=0.2} о чём вы говорите?"
 extend " О чём?! ...о чём?!\""
 n "{nw}"
 n "Рэна притворяется, что ничего не уразумела, но по её розовым щекам видно, что всё-то она прекрасно поняла."
 nvl clear
-image AgADAgADJawxGxQSSEoDHFMGzQrxrNLJuQ8ABAEAAwIAA20AA06RAAIWBA # scenes/bg_038.jpg
-image AgADAgADtKwxGxQSSErwolQmTtpBUCnWuQ8ABAEAAwIAA20AA7CTAAIWBA # scenes/bg_038.jpg | mion | 
+image AgADAgADKqsxGxJvsUr-zbVgGwGTS5378Q4ABAEAAwIAA20AA0GHAgABFgQ # scenes/bg_038.jpg
+image AgADAgADOKsxGxJvsUpo_A_9vN8I-GWBCA4ABAEAAwIAA20AA0TAAwABFgQ # scenes/bg_038.jpg | mion | 
 n "\"Ну и как оно?"
 extend " Я про твой старый город.\""
 n "Мион в конце концов переключилась на более подходящий для такого утра настрой."
@@ -235,16 +235,16 @@ extend " ...Из того «кое-чего», о чём я тебя проси�
 n "\"Да слушай же ты!"
 extend " Я только на похоронах был, вот и всё!"
 extend " У меня времени не было, чтоб ходить по магазинам игрушек!\""
-image AgADAgADtawxGxQSSEppzwHAdc5RmUbvug8ABAEAAwIAA20AA8SCAAIWBA # scenes/bg_038.jpg | mion | 
+image AgADAgAD1KsxG5nhsEposv0c7FcAAX0b17oPAAQBAAMCAANtAAPC9wACFgQ # scenes/bg_038.jpg | mion | 
 n "\"Ну-ну-ну."
 extend " Магазины игрушек и магазины \nувлечений — совершенно разные вещи."
 extend " Здесь-то западные товары фиг достанешь.\""
 nvl clear
-image AgADAgADYqsxGxvgSEo4rpBotwFxaEj58Q4ABAEAAwIAA20AA1cSAgABFgQ # scenes/bg_038.jpg | mion rena | 
+image AgADAgAD1asxG5nhsEp9K959MIftcYnCtw8ABAEAAwIAA20AA3ZUAgABFgQ # scenes/bg_038.jpg | mion rena | 
 n "\"Ты опять про игры, Мии-тян?\""
 n "Мион гордо кивнула в ответ хихикнувшей Рэне."
 nvl clear
-image AgADAgADtqwxGxQSSEoHm0EPs8xZ4_PJuQ8ABAEAAwIAA20AA-2SAAIWBA # scenes/bg_038.jpg | mion rena | 
+image AgADAgADvasxGyRLsErSa9KAjsaB36TYtw8ABAEAAwIAA20AAwhYAgABFgQ # scenes/bg_038.jpg | mion rena | 
 n "\"Ага! Я хотела, чтоб Кей-тян привёз мне каталог западных игр.\""
 n "{nw}"
 n "Она имеет в виду привозные иностранные игры."
@@ -259,12 +259,12 @@ n "Мион — ярая поклонница всяких карточных и
 n "По словам Рэны, комната Мион похожа на музей японских да иностранных игр."
 nvl clear
 n "\"Если там найдётся чё-то попроще, что смогу понять и я, дай и мне поиграть.\""
-image AgADAgADY6sxGxvgSEpDIxpPUnVlGeDeuQ8ABAEAAwIAA20AA0WVAAIWBA # scenes/bg_038.jpg | mion rena | 
+image AgADAgAD1qsxG5nhsEqYe0f1ngvul1gBuA8ABAEAAwIAA20AAw9YAgABFgQ # scenes/bg_038.jpg | mion rena | 
 n "\"Хммм... хорошо!"
 extend " Раз уж даже ты хочешь попробовать. Но учти! Наше мастерство, чёрт побери, это мастерство!\""
 n "\"Так вы считаете, что больно круты, да?"
 extend " Ну и что с того — быть побитым в какой бы то ни было игре я не собираюсь!\""
-image AgADAgADvqsxGw9ZUUoDCTslffUo6tI7hA8ABAEAAwIAA20AA5AGBAABFgQ # scenes/bg_038.jpg | mion rena | 
+image AgADAgADOasxGxJvsUqSt3Ilnf1P-k3otw8ABAEAAwIAA20AAwpaAgABFgQ # scenes/bg_038.jpg | mion rena | 
 n "\"О-о!.."
 extend " Тогда в следующий раз Кейти-кун будет вместе с нами, да?{w=0.3} ...да?\""
 n "Бурно радуясь, Рэна беспокойно переводила взгляд с меня на Мион и обратно."
@@ -279,8 +279,8 @@ n "{nw}"
 n "Потому-то я порешил не просто помочь им, но сделать всё, что могу, дабы скорее стать одним из них."
 n "Определённо, лучше не колебаться, пусть бы моё поведение самому мне казалось чересчур панибратским."
 nvl clear
-image AgADAgADsasxGw9ZUUrxmLAN4-MLmzCohQ8ABAEAAwIAA20AA9dYAwABFgQ # scenes/bg_093.jpg
-image AgADAgADoKwxGxQSSEoHdvOa-yCPknwDuA8ABAEAAwIAA20AA-D1AQABFgQ # scenes/bg_019.jpg
+image AgADAgADOqsxGxJvsUorGdof_uTqAdSohQ8ABAEAAwIAA20AAwrBAwABFgQ # scenes/bg_093.jpg
+image AgADAgADO6sxGxJvsUpTxPsdWk7b5dg8hA8ABAEAAwIAA20AA4BsBAABFgQ # scenes/bg_019.jpg
 n "Хинамидзава и вправду небольшая деревушка. На всех — одна школа с единственным классом."
 n "И ученики в том классе самого разного возраста."
 n "Всего учеников примерно тридцать, и все они занимаются в одной комнате, все вместе."
@@ -292,7 +292,7 @@ n "{nw}"
 n "С раннего утра можно слышать весёлые голоса детворы."
 n "Даже эта живость, присущая больше детскому садику, нежели школе, стала приносить удовольствие."
 nvl clear
-image AgADAgADv6sxGw9ZUUpNRzGBRlVdm1XOtw8ABAEAAwIAA20AA4H1AQABFgQ # scenes/bg_019.jpg | mion | 
+image AgADAgADPKsxGxJvsUpmYTSc4SBZ46fNuQ8ABAEAAwIAA20AA5v5AAIWBA # scenes/bg_019.jpg | mion | 
 n "Мион, шедшая первой, неожиданно уступила мне дорогу."
 nvl clear
 n "Прямо перед раздвижной дверью в класс."
@@ -303,28 +303,28 @@ extend " Извиняй, но я больше на такую уловку не 
 n "{nw}"
 n "\"Уступаешь дорогу, стало быть."
 extend " Покажи, мол, на что способен?\""
-image AgADAgADt6wxGxQSSEpuOhAHEgABCg_0QoQPAAQBAAMCAANtAAN4CgQAARYE # scenes/bg_019.jpg | mion | 
+image AgADAgADPasxGxJvsUrEo8xQJvVH7Griug8ABAEAAwIAA20AA1vlAAIWBA # scenes/bg_019.jpg | mion | 
 n "Та нагло ухмыльнулась."
 nvl clear
-image AgADAgADuKwxGxQSSEohKVSS-vfJr87rug8ABAEAAwIAA20AA0GCAAIWBA # scenes/bg_019.jpg | mion rena | 
+image AgADAgADPqsxGxJvsUpcC5Zro0WSFODPtw8ABAEAAwIAA20AAwlYAgABFgQ # scenes/bg_019.jpg | mion rena | 
 n "\"Ч-Что такое... ребята?..\""
 n "\"Отойди, Рэна. Здесь опасно."
 extend " Это ОНА!\""
 n "\"Э-э?.."
 extend " Хочешь сказать... Сатоко-тян?!...\""
 nvl clear
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "Имя «ЕЙ» — Ходзё Сатоко."
 n "Она — нахальная малявка, не проявляющая должного уважения к старшим."
 n "Её манера речи жутко меня раздражает, но не пристало старшекласснику злиться по таким пустякам."
 n "Настоящая проблема... в другом."
 nvl clear
-image AgADAgADoKwxGxQSSEoHdvOa-yCPknwDuA8ABAEAAwIAA20AA-D1AQABFgQ # scenes/bg_019.jpg
+image AgADAgADO6sxGxJvsUpTxPsdWk7b5dg8hA8ABAEAAwIAA20AA4BsBAABFgQ # scenes/bg_019.jpg
 n "\"Очевидная западня. Наверху зажатый дверью ластик для доски."
 extend " ...Чёрт побери, Сатоко! Это же так очевидно!\""
 n "Из-за двери донёсся приглушённый смех."
 nvl clear
-image AgADAgADuawxGxQSSEoV97jM5tMjXcTRuQ8ABAEAAwIAA20AA_mTAAIWBA # scenes/bg_019.jpg | mion | 
+image AgADAgAD16sxG5nhsEo9ZJF-7t9TaDX18Q4ABAEAAwIAA20AA1GDAgABFgQ # scenes/bg_019.jpg | mion | 
 n "\"Неплохо, Кей-тян! ...Полагаю, сегодня твоя взяла?\""
 n "\"Не-а... Мой противник — Сатоко."
 extend " Где-то должны быть ещё ловушки!..\""
@@ -339,14 +339,14 @@ nvl clear
 n "\"Похоже, обычный ластик для доски."
 extend " Вроде бы никакого камня там нет.\""
 n "В первый день на меня свалился именно ластик для доски. Причём вместе с булыжником. И это было чертовски больно."
-image AgADAgADuqwxGxQSSEpTBzeYW_WUpC3-8Q4ABAEAAwIAA20AA8YhAgABFgQ # scenes/bg_019.jpg | mion rena | 
+image AgADAgADP6sxGxJvsUoKr6qQohJ4BOr2tw8ABAEAAwIAA20AA_FVAgABFgQ # scenes/bg_019.jpg | mion rena | 
 n "\"Может быть, нужно просто раздвинуть дверь, чтоб он упал?..\""
 n "\"Вот именно!\""
 n "{nw}"
 n "Именно этого и ждёт от меня Сатоко."
 n "Отвлёкшись на потолок, взяться за дверную ручку, где..."
 nvl clear
-image AgADAgADoKwxGxQSSEoHdvOa-yCPknwDuA8ABAEAAwIAA20AA-D1AQABFgQ # scenes/bg_019.jpg
+image AgADAgADO6sxGxJvsUpTxPsdWk7b5dg8hA8ABAEAAwIAA20AA4BsBAABFgQ # scenes/bg_019.jpg
 n "Ждёт меня жуткая ловушка — примотанные изолентой канцелярские кнопки."
 n "Страшная, наносящая огромный урон штука."
 n "И, дабы отвлечь от неё внимание, она положила на видном месте тот ластик..."
@@ -355,7 +355,7 @@ n "\"Превосходная идея, Сатоко!"
 extend " Но этого недостаточно, глупая ты маленькая девчонка!\""
 n "Празднуя победу, я широко раскрыл дверь и ступил внутрь."
 nvl clear
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "Нога за что-то зацепилась,"
 extend " будто я споткнулся о скакалку."
 n "«Подловила-таки!..» — понял я, но чересчур запоздало!"
@@ -364,26 +364,26 @@ nvl clear
 n "\"Кей-тян, берегись!\""
 n "Услыхав пронзительный крик Мион, я резко вывернул тело и упал на пол."
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
 n "\"...Ой-ёй-ёй... чё за?!\""
 n "Там, куда я должен был приземлиться, мирно лежал чернильный камень, полный чернил!.."
 n "Представив себя после падения на тот камень, я содрогнулся."
 nvl clear
-image AgADAgADwKsxGw9ZUUqOgO9PoxJ6ehHRug8ABAEAAwIAA20AAzmSAAIWBA # scenes/bg_109.jpg | satoko | 
+image AgADAgADQasxGxJvsUpYMV_7lL2e8VrNuQ8ABAEAAwIAA20AAyT5AAIWBA # scenes/bg_109.jpg | satoko | 
 n "\"О, и кто ж это у нас тут?"
 extend " Утро доброе, Кейти-сан. Бодрящее утро, не так ли?\""
 n "В её голосе отчётливо слышались насмешливые нотки."
 nvl clear
 n "\"Ничего себе ловушечку ты соорудила, Сатоко!!!\""
-image AgADAgADu6wxGxQSSEpr4pS0lQxRXiJFhA8ABAEAAwIAA20AA6gQBAABFgQ # scenes/bg_109.jpg | satoko | 
+image AgADAgADQqsxGxJvsUr8_ZcubHFWLUzktw8ABAEAAwIAA20AA1FcAgABFgQ # scenes/bg_109.jpg | satoko | 
 n "\"Знать не знаю, о чём вы говорите."
 extend " С левой ноги встал, наверно.\""
 n "\"Аххх тыыыыыы!!...{w=1.0} ...{w=1.0}...{w=1.0}...О-о-ох-х...\""
 n "Видать, я себе что-то повредил, вот так извернувшись."
 extend " ...Но это всяко лучше, чем упасть на чернильный камень."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
-image AgADAgADvKwxGxQSSEqCQGqidUcDJL7aug8ABAEAAwIAA20AA6ySAAIWBA # scenes/bg_108.jpg | rika | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
+image AgADAgADvqsxGyRLsErYJNHf0Z9NJbLOtw8ABAEAAwIAA20AA8NVAgABFgQ # scenes/bg_108.jpg | rika | 
 n "Чья-то маленькая ручонка легонько погладила мою голову."
 n "\"Улетай, боль, улетай, уходи~.\""
 n "Маленькая милая ручонка ласково гладила меня по голове."
@@ -394,24 +394,24 @@ n "Если я потянул поясницу, то какой прок в то
 n "Подлинную доброту нужно ценить."
 nvl clear
 n "\"А... ах, Рика-тян, спасибо тебе. Моя боль улетела.\""
-image AgADAgADvawxGxQSSEqFvIGAlBqrJ9BChA8ABAEAAwIAA20AA_kIBAABFgQ # scenes/bg_108.jpg | rena rika | 
+image AgADAgADRKsxGxJvsUpuic_cWqXm5J3Etw8ABAEAAwIAA20AAx5UAgABFgQ # scenes/bg_108.jpg | rena rika | 
 n "\"О-о-о... Рика-тян, до-брое уу-тро!\""
-image AgADAgADvqwxGxQSSEosnRhmpQABcPVg-_EOAAQBAAMCAANtAAODFgIAARYE # scenes/bg_108.jpg | rena rika | 
+image AgADAgAD2KsxG5nhsEoiZM9TZudiYCbWtw8ABAEAAwIAA20AA7ZYAgABFgQ # scenes/bg_108.jpg | rena rika | 
 n "\"И тебе тоже доброго, Рэна."
 extend " Всем самого доброго же.\""
 n "Рика-тян поприветствовала нас троих,"
 extend " по очереди мило кивнув каждому."
 n "Мы трое — Рэна, Мион и я — ответили ей тем же."
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
 n "\"Хорошая ты девочка, Рика-тян..."
 extend " В отличие от Сатоко!!...\""
 n "Я вперился в Сатоко диким взглядом. Та, посвистывая, глядела куда-то в сторону. Скорее всего, нарочно."
 nvl clear
-image AgADAgADv6wxGxQSSErqZllJXpvP9SODCA4ABAEAAwIAA20AA3JSAwABFgQ # scenes/bg_109.jpg | satoko | 
+image AgADAgAD2asxG5nhsErL4RqN8hKU26rNuQ8ABAEAAwIAA20AAxr5AAIWBA # scenes/bg_109.jpg | satoko | 
 n "\"Что вы, Сатоко — хорошая девочка.\""
 n "\"Хорошие девочки злодейских ловушек не ставят!\""
-image AgADAgADkqwxGxQSSEpy3YTCl5nZPbnRug8ABAEAAwIAA20AA_OVAAIWBA # scenes/bg_109.jpg | satoko | 
+image AgADAgADv6sxGyRLsEpL0uaLXaFeuh3nug8ABAEAAwIAA20AAxHlAAIWBA # scenes/bg_109.jpg | satoko | 
 n "\"Клевета!"
 extend " Чем вы можете подтвердить{w=0.3}... ай!\""
 n "Я схватил её за воротник и вздёрнул в воздух,"
@@ -423,7 +423,7 @@ n "\"{cps=*0.3}ПРО-СТИ-ТЕ-МЕ-НЯ-ПО-ЖА-ЛУЙ-СТА.{/cps}{w=0.8
 extend " А не то!..\""
 n "Стоило мне поднести правую руку к её лбу для щелбана, как она тотчас же испуганно задрожала."
 nvl clear
-image AgADAgADwKwxGxQSSEob0mVN0w8LF4g7hA8ABAEAAwIAA20AA5QNBAABFgQ # scenes/bg_109.jpg | satoko | 
+image AgADAgADRasxGxJvsUqpUrgEJcRO301FhA8ABAEAAwIAA20AA2JrBAABFgQ # scenes/bg_109.jpg | satoko | 
 n "\"Н... Никакого насилия!{w=0.6} У вас нет доказа-а-ательств!!!\""
 n "\"Ага. К твоему сведению, уж мой-то щелбан действительно грозен!"
 extend " Им я даже фанеру ломаю!\""
@@ -432,19 +432,19 @@ extend " Не трогай меня, животное!!!\""
 n "\"Эй, бреда-то не неси, а!!!\""
 n "Чья-то маленькая рука потянула меня за рубашку."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
-image AgADAgADwasxGw9ZUUq87jz2FDpRP8biuQ8ABAEAAwIAA20AA7-TAAIWBA # scenes/bg_108.jpg | rika | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
+image AgADAgADwKsxGyRLsEq5zGQIj9IIsCvbug8ABAEAAwIAA20AAyrlAAIWBA # scenes/bg_108.jpg | rika | 
 n "\"...Кейти, пускай тебя не было всего два дня, она всё равно по тебе скучала.\""
 n "...Ох, какая же она..."
 n "Ну что я могу сделать после таких слов?"
 n "Я мягко выпустил зарёванную, закрывшую глаза Сатоко, уж приготовившуюся стойко вытерпеть грозный щелбан."
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
-image AgADAgADZKsxGxvgSEoYUiQ_ZK-4JhDkuQ8ABAEAAwIAA20AAyeTAAIWBA # scenes/bg_109.jpg | satoko | 
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
+image AgADAgADRqsxGxJvsUrYB4N5dPYY5RRBhA8ABAEAAwIAA20AA7VtBAABFgQ # scenes/bg_109.jpg | satoko | 
 n "\"Уа, уаааааааа!!!"
 extend " Мне не за что просить прощения!!!"
 extend " Уаааааа!\""
-image AgADAgADwawxGxQSSEpoBNrjo5zN5WXVug8ABAEAAwIAA20AAwqSAAIWBA # scenes/bg_109.jpg | rika satoko | 
+image AgADAgADwasxGyRLsEq3VPXkOajFLRbkug8ABAEAAwIAA20AA8TkAAIWBA # scenes/bg_109.jpg | rika satoko | 
 n "\"Не плачь, Сатоко..."
 extend " Вперёд{w=0.4}{nw}"
 extend " и в бой!\""
@@ -453,19 +453,19 @@ n "Не могу и представить, что эти двое — свер�
 n "{nw}"
 n "Думаю, Сатоко стоит многому поучиться у Рики-тян."
 nvl clear
-image AgADAgADwqwxGxQSSEpkY3P38154aZY9hA8ABAEAAwIAA20AA50KBAABFgQ # scenes/bg_109.jpg | rika satoko | 
+image AgADAgADwqsxGyRLsEp6bxtTeDiqZaDetw8ABAEAAwIAA20AA5BXAgABFgQ # scenes/bg_109.jpg | rika satoko | 
 n "\"В следующий раз ты поставишь ещё более замечательную ловушку...\""
 n "{nw}"
 n "{w=0.5}Погодите-ка..."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
-image AgADAgADwqsxGw9ZUUpEa6BWaCWB8qXiug8ABAEAAwIAA20AA4Z_AAIWBA # scenes/bg_108.jpg | rena | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
+image AgADAgADw6sxGyRLsEp9d5yua1TX-J_euQ8ABAEAAwIAA20AA7P5AAIWBA # scenes/bg_108.jpg | rena | 
 n "Рэна зачарованно глядела на эту картину."
 n "\"...Хау-у... Плачущая Сатоко-тян..."
 extend " такая миииленькая...\""
-image AgADAgADw6wxGxQSSErQHEZwOfEapOOhhQ8ABAEAAwIAA20AA9NUAwABFgQ # scenes/bg_108.jpg | mion rena | 
+image AgADAgADR6sxGxJvsUqU5Kw8OhrVKAPltw8ABAEAAwIAA20AA-lYAgABFgQ # scenes/bg_108.jpg | mion rena | 
 n "\"Нет. Тебе нельзя забирать её домой.\""
-image AgADAgADw6sxGw9ZUUoAATfbWa_4ytkm-LcPAAQBAAMCAANtAAOF9gEAARYE # scenes/bg_108.jpg | mion rena | 
+image AgADAgADSKsxGxJvsUq3mniYXYPMUiSwhQ8ABAEAAwIAA20AA03CAwABFgQ # scenes/bg_108.jpg | mion rena | 
 n "\"Ууу!.. Но, но, но{w=0.5} она же такая милааашка!\""
 n "\"Нельзя, какой бы «мииилооой» она ни была.\""
 nvl clear
@@ -481,14 +481,14 @@ n "\"Тогда можно я хоть посмотрю? Только посмо
 extend " Посмотреть ведь можно? ...можно?\""
 n "Рэна не отрывала взгляда от всё ещё ревущей Сатоко."
 nvl clear
-image AgADAgADxKsxGw9ZUUrjgCEfsCJG21bfuQ8ABAEAAwIAA20AA-yTAAIWBA # scenes/bg_108.jpg | rena | 
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg | | 
+image AgADAgAD2qsxG5nhsEoKbSxt6JWElDzjtw8ABAEAAwIAA20AA6dcAgABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg | | 
 n "Если в Хинамидзаве когда-нибудь похитят маленькую девочку, придётся мне, по всей вероятности, сдать Рэну полиции."
 n "{nw}"
 n "Прости меня, Рэна."
 n "Я буду навещать тебя за решёткой!.."
 nvl clear
-image AgADAgADZasxGxvgSEqlf29w19h4UJbZuQ8ABAEAAwIAA20AA5mUAAIWBA # scenes/bg_108.jpg | mion | 
+image AgADAgAD26sxG5nhsErKUpvA6Di4sNPStw8ABAEAAwIAA20AA2tWAgABFgQ # scenes/bg_108.jpg | mion | 
 n "\"Учитель идёт."
 extend " Быстро всё убираем!"
 extend " Сатоко, чернильный камень твой, да?!\""
@@ -497,18 +497,18 @@ n "{nw}"
 n "Чернильный камень плох сам по себе, но канцелярские кнопки ещё хуже!"
 n "С большими предосторожностями я оторвал кусок ленты с ними."
 nvl clear
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "Хоть ловушки устраивала Сатоко, убираться пришлось нам всем."
 n "Когда учительница вошла в класс, только что царившего там беспорядка уже не было."
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
-image AgADAgADZqsxGxvgSEqbMYqppKmZshjZtw8ABAEAAwIAA20AA2H0AQABFgQ # scenes/bg_109.jpg | rena | 
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
+image AgADAgADxKsxGyRLsEqKh4pGdusRDmn-8Q4ABAEAAwIAA20AAwZ9AgABFgQ # scenes/bg_109.jpg | rena | 
 n "\"А-ха-ха-ха, вовремя мы успели!\""
-image AgADAgADZ6sxGxvgSEo6fo06n2Lh4d3juQ8ABAEAAwIAA20AA7OUAAIWBA # scenes/bg_109.jpg | mion rena | 
+image AgADAgADxasxGyRLsErbsELpzkewK0emhQ8ABAEAAwIAA20AA1S-AwABFgQ # scenes/bg_109.jpg | mion rena | 
 n "\"Встать! Смииирно!\""
 n "Мион, как староста, отдавала команды."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
 $ save_name = "Глава о Похищенных Демонами.\nДень Первый, уроки"
 n "Тяжело быть единственным учителем в школе, где все классы набиты в одну комнату."
 n "Ей приходится преподавать каждому разные предметы."
@@ -520,14 +520,14 @@ n "{nw}"
 n "Честно говоря, их успеваемость куда ниже моей."
 n "В общем, преподавателем для Мион с Рэной стал я."
 nvl clear
-image AgADAgADO6sxGxvgSErs2I8wQ-pZwXw-hA8ABAEAAwIAA20AA8AGBAABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgADxqsxGyRLsEqCGnT4gWdKnT6vhQ8ABAEAAwIAA20AA02_AwABFgQ # scenes/bg_108.jpg | rena | 
 n "\"А ты хорошо объясняешь, Кейти-кун."
 extend " Понять гораздо проще.\""
 n "Закончив подчёркивать нужные места у себя на странице, Рэна решила отдохнуть."
 nvl clear
 n "\"Спасибо, конечно, однако ж после таких уроков я начинаю терять веру в себя."
 extend " Из-за них до меня доходит, как же мало я знаю сам.\""
-image AgADAgADxasxGw9ZUUofGEoLeD-BQ131ug8ABAEAAwIAA20AAwWBAAIWBA # scenes/bg_108.jpg | mion rena | 
+image AgADAgADSasxGxJvsUqThxBkxp6sjjuACA4ABAEAAwIAA20ABMADAAEWBA # scenes/bg_108.jpg | mion rena | 
 n "\"Говорят, чтоб учить других, нужно втройне понимать предмет."
 extend " Возясь тут с нами, Кей-тян, ты проверяешь сам себя.\""
 n "Весьма безответственно с её стороны."
@@ -536,25 +536,25 @@ nvl clear
 n "\"Мион, здесь речь о тебе идёт, вообще-то."
 extend " Не постараешься сейчас, плохо тебе потом придётся.{w=1.0}{nw}"
 extend " Особенно с такой успеваемостью...\""
-image AgADAgADxqsxGw9ZUUoyaHqKzdCTAUr1tw8ABAEAAwIAA20AAx72AQABFgQ # scenes/bg_108.jpg | mion rena | 
+image AgADAgADx6sxGyRLsEqnlQ0todRpa4_Ktw8ABAEAAwIAA20AAzhXAgABFgQ # scenes/bg_108.jpg | mion rena | 
 n "\"Да мне всякие крутые университеты на фиг не сдались."
 extend " Главное — не провалить экзамены, а там будь что будет!\""
 n "Да уж, хорошо быть самонадеянной, спору нет."
 extend " Но перед экзаменами не время для отвлечённых рассуждений."
 nvl clear
-image AgADAgADx6sxGw9ZUUqdlihTyBUTVRrGtw8ABAEAAwIAA20AA1n2AQABFgQ # scenes/bg_108.jpg | mion rena | 
+image AgADAgADyKsxGyRLsEoJBdqYjL_Vdqg7hA8ABAEAAwIAA20AAx1pBAABFgQ # scenes/bg_108.jpg | mion rena | 
 n "\"Мии-тян, Кейти-кун так старается нас обучить."
 extend " Давай уж и мы постараемся.\""
 n "\"Рэна, ты так прилежна и добросовестна..."
 extend " Как твой учитель, я позабочусь о том, чтоб ты поступила в хорошую школу.\""
-image AgADAgADxKwxGxQSSEpm50c8AAEDEzSb2LcPAAQBAAMCAANtAAPk8gEAARYE # scenes/bg_108.jpg | mion rena | 
-image AgADAgADxawxGxQSSEoDV8XNLKnDG5PPuQ8ABAEAAwIAA20AA9WTAAIWBA # scenes/bg_108.jpg | mion rena | 
+image AgADAgADSqsxGxJvsUrZnBXTA78zlgPftw8ABAEAAwIAA20AA6BYAgABFgQ # scenes/bg_108.jpg | mion rena | 
+image AgADAgADyasxGyRLsEpBamAoxUKo6Q38tw8ABAEAAwIAA20AA2JbAgABFgQ # scenes/bg_108.jpg | mion rena | 
 n "\"О-о...{w=0.6} С-Спасибо!..\""
 nvl clear
 n "\"Ты определённо заслуживаешь особого подхода. Я назначаю тебе..."
 extend " «частные уроки», только для нас двоих.\""
-image AgADAgADaKsxGxvgSEpFQARI_fC1gVSohQ8ABAEAAwIAA20AA1tVAwABFgQ # scenes/bg_108.jpg | mion rena | 
-image AgADAgADxqwxGxQSSEpMOMxoYN-68rLWug8ABAEAAwIAA20AA-mUAAIWBA # scenes/bg_108.jpg | mion rena | 
+image AgADAgADS6sxGxJvsUqTNdyRF-0dAAGrzrcPAAQBAAMCAANtAANGVwIAARYE # scenes/bg_108.jpg | mion rena | 
+image AgADAgADTKsxGxJvsUqmsQuuV4XmJJDKtw8ABAEAAwIAA20AAwJYAgABFgQ # scenes/bg_108.jpg | mion rena | 
 n "\"Ч...{w=0.6} частные... у-{w=0.6}уроки...\""
 n "«Пуф». Над её макушкой{nw}"
 extend " поднялось колечко дыма."
@@ -563,14 +563,14 @@ n "Эй, что ты себе такое воображаешь, что аж в�
 n "{nw}"
 n "В следующий раз поведаешь мне в прямом эфире."
 nvl clear
-image AgADAgADxKsxGw9ZUUrjgCEfsCJG21bfuQ8ABAEAAwIAA20AA-yTAAIWBA # scenes/bg_108.jpg | rena | 
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg | | 
-image AgADAgADx6wxGxQSSEoAATCbSaL3KmZI07oPAAQBAAMCAANtAAOukwACFgQ # scenes/bg_108.jpg | mion | 
+image AgADAgAD2qsxG5nhsEoKbSxt6JWElDzjtw8ABAEAAwIAA20AA6dcAgABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg | | 
+image AgADAgADyqsxGyRLsErnWpiMl6eJSFDvtw8ABAEAAwIAA20AAw9XAgABFgQ # scenes/bg_108.jpg | mion | 
 n "Играясь со словарём, Мион жалобно заныла."
 n "\"Зачем в городе столько учатся?\""
 nvl clear
 n "\"Ну так тогда в следующий класс не перейдёшь.\""
-image AgADAgADZasxGxvgSEqlf29w19h4UJbZuQ8ABAEAAwIAA20AA5mUAAIWBA # scenes/bg_108.jpg | mion | 
+image AgADAgAD26sxG5nhsErKUpvA6Di4sNPStw8ABAEAAwIAA20AA2tWAgABFgQ # scenes/bg_108.jpg | mion | 
 n "\"Стало быть, вы учитесь только затем, чтоб не оставаться на другой год?\""
 n "\"Кхм."
 extend " Ну, можно и так сказать."
@@ -580,11 +580,11 @@ n "\"...Ч-Чё, правда?!...\""
 n "{nw}"
 n "Не пойму, как можно столь обыденно опровергать Ньютоновский Закон здравого смысла: «Учёба = успех на экзамене». Я-то следовал ему всё время."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg | | 
-image AgADAgADlqwxGxQSSEo7aJqHqU7YJgT08Q4ABAEAAwIAA20AA74ZAgABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg | | 
+image AgADAgADy6sxGyRLsEp73oJmaUN1czSnhQ8ABAEAAwIAA20AAzS3AwABFgQ # scenes/bg_108.jpg | rena | 
 n "\"Ну да."
 extend " У нас и так мало людей, чтоб их ещё и контрольными отсеивать.\""
-image AgADAgADyKwxGxQSSEqcXHbMJTD2V_jItw8ABAEAAwIAA20AAyz4AQABFgQ # scenes/bg_108.jpg | mion rena | 
+image AgADAgADzKsxGyRLsErR-k9H--dgRmXSug8ABAEAAwIAA20AA0r5AAIWBA # scenes/bg_108.jpg | mion rena | 
 n "\"Если каждый может попасть в следующий класс, то и стараться незачем, верно?\""
 n "\"...Ну... да, конечно... но всем нужно знать хотя бы основы...\""
 nvl clear
@@ -594,22 +594,22 @@ n "{nw}"
 n "Я не смог просто взять и высмеять её слова, так как они несли в себе нечто поистине важное."
 n "Конечно, раз это Мион, она не могла сознательно произнести что-нибудь с настолько глубоким значением..."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
 n "Здешний директор вместо электрического звонка звонит в колокольчик."
 nvl clear
-image AgADAgADaasxGxvgSEpwJMuZlf2ROln-tw8ABAEAAwIAA20AA__zAQABFgQ # scenes/bg_108.jpg | mion | 
+image AgADAgADTasxGxJvsUoz1V-xDnPck0fotw8ABAEAAwIAA20AA0lUAgABFgQ # scenes/bg_108.jpg | mion | 
 n "\"Кей-тян, урок закончился!"
 extend " Эй, ребята, настало весёлое время обеда!\""
 n "Мион, с которой мгновенно слетела всякая вялость, оживилась и выкрикнула приказ всему классу."
 nvl clear
-image AgADAgADyawxGxQSSEqROnapNYdQGFuxhQ8ABAEAAwIAA20AA_9UAwABFgQ # scenes/bg_108.jpg | mion rena | 
+image AgADAgADTqsxGxJvsUreK0Ew2bB8RD4_hA8ABAEAAwIAA20AA5psBAABFgQ # scenes/bg_108.jpg | mion rena | 
 n "\"Кейти-кун... давай обедать! {font=DejaVuSans.ttf}☆{/font}\""
 n "Кажись, на лице у меня была написана мучительная борьба."
 n "Рэна лучезарно мне улыбнулась."
 n "\"А, ну ладно!!"
 extend " Пожрём-ка!\""
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
 n "Насколько я понял, класс разбился на мелкие кучки."
 n "Другие обычно сбивались по возрасту и полу, но только не мы."
 n "В нашей группе все разного возраста, и не только девочки, но и один парень — я, значит."
@@ -620,12 +620,12 @@ nvl clear
 n "Рэна и Мион развернули свои парты так, чтоб сидеть лицом друг к другу."
 n "Сатоко и Рика-тян подтаскивали свои поближе, спеша к ним присоединиться."
 nvl clear
-image AgADAgADrqsxGw9ZUUrTItRK2IRKFaHqug8ABAEAAwIAA20AAy2BAAIWBA # scenes/bg_109.jpg | rena | 
+image AgADAgAD3KsxG5nhsErnqSGmRNjmWzX58Q4ABAEAAwIAA20AA2-XAgABFgQ # scenes/bg_109.jpg | rena | 
 n "\"Сюда, Кейти-кун, сюда!\""
 n "Рэна подзывала меня, отнюдь не воспитанно размахивая палочками для еды."
 n "Она даже не притронется к своей коробке, пока все не соберутся."
 nvl clear
-image AgADAgADyqwxGxQSSEr_L7jRiP-ZWGqfhQ8ABAEAAwIAA20AA31aAwABFgQ # scenes/bg_109.jpg | rena satoko | 
+image AgADAgADzasxGyRLsEoqn-XFEkPWrrzzug8ABAEAAwIAA20AA7_mAAIWBA # scenes/bg_109.jpg | rena satoko | 
 n "\"Небось у вас на обед одна несчастная хлебная корка, Кейти-сан!"
 extend " Не стыдитесь и предъявите нам её! Скорее, скорее!\""
 n "Пусть Сатоко и позволяет себе кучу вольностей в моём отношении, она тоже не откроет свой обед, пока я не приду."
@@ -633,7 +633,7 @@ nvl clear
 n "Молниеносно достав коробку, я подтащил свой стул к девчачьему кругу."
 n "\"Я с вами!\""
 nvl clear
-image AgADAgADOqsxGxvgSEo3pxNkPOFjkkHYuQ8ABAEAAwIAA20AA6-UAAIWBA # cg/bukatsu.jpg
+image AgADAgAD3asxG5nhsEoVu-HZiMWI2oviuQ8ABAEAAwIAA20AAyf1AAIWBA # cg/bukatsu.jpg
 n "\"Что ж, начнём есть по приказу Старосты Мии...\""
 n "{nw}"
 n "Сначала я немного стеснялся, но вскоре неловкость прошла."
@@ -677,24 +677,24 @@ n "Я искренне восхищён."
 n "Морковные цветочки вырезаны ножом, а не формочкой."
 n "А это не так-то легко."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
-image AgADAgADRKsxGxvgSEpNFFnsOmSn7VkAAbgPAAQBAAMCAANtAAOk8wEAARYE # scenes/bg_108.jpg | mion | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
+image AgADAgADzqsxGyRLsEq99PDRqJdCIbXetw8ABAEAAwIAA20AAyRXAgABFgQ # scenes/bg_108.jpg | mion | 
 n "\"Рика-тян и сама не замечает, насколько мастерски у неё такие штуки выходят.\""
-image AgADAgADaqsxGxvgSEp5uMvyCbydFTjitw8ABAEAAwIAA20AAwzzAQABFgQ # scenes/bg_108.jpg | mion rena | 
+image AgADAgADT6sxGxJvsUqqIigmuOsvU93PuQ8ABAEAAwIAA20AAwH3AAIWBA # scenes/bg_108.jpg | mion rena | 
 n "\"И она чудно шьёт и стирает."
 extend " Она замечательная, верно?"
 extend " Верно!\""
-image AgADAgADyKsxGw9ZUUpLoV77wxQOEmbRuQ8ABAEAAwIAA20AA_uTAAIWBA # scenes/bg_108.jpg | rena | 
-image AgADAgADy6wxGxQSSEpV_diBOQzdVYPaug8ABAEAAwIAA20AA2iWAAIWBA # scenes/bg_108.jpg | rena satoko | 
+image AgADAgADUKsxGxJvsUr-IknAD545xvLPtw8ABAEAAwIAA20AA2BSAgABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgADUasxGxJvsUpcyPWzjzLBpir68Q4ABAEAAwIAA20ABH8CAAEWBA # scenes/bg_108.jpg | rena satoko | 
 n "\"Да-да, Рика хороша во многом."
 extend " О-хо-хо-хо!\""
 n "\"Ты-то чего загордилась? О Рике-тян разговор, не о тебе!\""
-image AgADAgADzKwxGxQSSErFqVnChKHIurrXtw8ABAEAAwIAA20AA2H2AQABFgQ # scenes/bg_108.jpg | satoko | 
-image AgADAgADyasxGw9ZUUoqmHP-qM2D9WjCtw8ABAEAAwIAA20AAzrvAQABFgQ # scenes/bg_108.jpg | rika satoko | 
+image AgADAgADUqsxGxJvsUqU8B1lOis9c1748Q4ABAEAAwIAA20AA36KAgABFgQ # scenes/bg_108.jpg | satoko | 
+image AgADAgADU6sxGxJvsUrFgWqKzbUn56jitw8ABAEAAwIAA20AA_pXAgABFgQ # scenes/bg_108.jpg | rika satoko | 
 n "\"Как бы то ни было, Рэна готовит ещё лучше.\""
 n "{nw}"
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
-image AgADAgADzawxGxQSSEqhv3_37g9UqcfPuQ8ABAEAAwIAA20AA82TAAIWBA # scenes/bg_108.jpg | rena | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
+image AgADAgAD3qsxG5nhsEqHKSMeG1voHFXXtw8ABAEAAwIAA20AA09YAgABFgQ # scenes/bg_108.jpg | rena | 
 n "\"...Э?{w=0.8} Ой...{w=0.8} это... ну... {font=DejaVuSans.ttf}☆{/font}\""
 n "Потрясённая неожиданной похвалой Рэна остановилась, зардевшись, на полуслове."
 nvl clear
@@ -702,7 +702,7 @@ n "Коробка Рэны определённо выглядела лучше 
 n "Она выглядит вкусно, и она достойна того, как выглядит!"
 n "Все так и сновали палочками в коробке Рэны."
 nvl clear
-image AgADAgADzqwxGxQSSEoaigPajVRf_ObWtw8ABAEAAwIAA20AA3LxAQABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgAD36sxG5nhsErRWOoWxdfRsUb18Q4ABAEAAwIAA20AA757AgABFgQ # scenes/bg_108.jpg | rena | 
 n "\"Теперь я постаралась наготовить побольше, ведь вам в прошлый раз понравилось."
 extend " Ну как, вам нравится?{w=0.8}{nw}"
 extend " ...нравится?\""
@@ -715,16 +715,16 @@ n "Мы всё, нахваливая, поглощали готовку Рэны
 n "Как-то нехорошо, что никто не догадался ей оставить."
 n "Впрочем, сама Рэна выглядела довольнее некуда."
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
-image AgADAgADyqsxGw9ZUUppWKDHIKqLX6T48Q4ABAEAAwIAA20AA1UdAgABFgQ # scenes/bg_109.jpg | satoko | 
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
+image AgADAgADz6sxGyRLsEr_qYuF3gkxDL-BCA4ABAEAAwIAA20AA3mzAwABFgQ # scenes/bg_109.jpg | satoko | 
 n "\"Ну как? Правда ведь, Рэна-сан очень неплохо готовит?"
 extend " Кейти-сан рядом с ней не идёт ни в какое сравнение!\""
 n "\"Как я уже сказал, ТЫ-ТО ЧЕГО ЗАГОРДИЛАСЬ?!\""
-image AgADAgADz6wxGxQSSEqipvEwdefHFuPyug8ABAEAAwIAA20AA2iAAAIWBA # scenes/bg_109.jpg | mion satoko | 
+image AgADAgAD4KsxG5nhsEoYQgoyqwLvA__zug8ABAEAAwIAA20AA4nlAAIWBA # scenes/bg_109.jpg | mion satoko | 
 n "\"Сатоко, ты не лучше Кей-тяна."
 extend " Или ты у нас научилась отличать брокколи от цветной капусты?\""
 nvl clear
-image AgADAgADa6sxGxvgSEoOQyIyKQuK7mKCCA4ABAEAAwIAA20AA_xaAwABFgQ # scenes/bg_109.jpg | mion satoko | 
+image AgADAgADVKsxGxJvsUopEhYJW0ljk9Hftw8ABAEAAwIAA20AA9FdAgABFgQ # scenes/bg_109.jpg | mion satoko | 
 n "Сатоко мгновенно побледнела."
 nvl clear
 n "\"Эй, уж коль это брокколи с капустой, даже я знаю, в чём промеж ними разница.\""
@@ -732,26 +732,26 @@ n "\"Я, я-я-я тоже знаю!{w=0.8}{nw}"
 extend " Знаю, и нечего тут!..\""
 n "Да уж, врать она не умеет."
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
-image AgADAgAD0KwxGxQSSEp54ucwga1jQaJAhA8ABAEAAwIAA20AA1wQBAABFgQ # scenes/bg_109.jpg | rena | 
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
+image AgADAgAD0KsxGyRLsErRXpDiOZRgbnXdtw8ABAEAAwIAA20AA9FWAgABFgQ # scenes/bg_109.jpg | rena | 
 n "\"Кейти-кун, о-они в любом случае хорошо идут с майонезом."
 extend " Не надо её дразнить...{w=0.8} И ты, Мии-тян!\""
 n "Рэна попыталась было спасти Сатоко, но Мион, ухмыляясь, пододвинулась к той ближе."
 nvl clear
-image AgADAgADNqsxGxvgSEqQk_WzvRhwj-fUuQ8ABAEAAwIAA20AA_aSAAIWBA # scenes/bg_109.jpg
-image AgADAgAD0awxGxQSSEpMfeMybZLlnt3YuQ8ABAEAAwIAA20AAwqRAAIWBA # scenes/bg_109.jpg | mion | 
+image AgADAgADQKsxGxJvsUqAaXypJ8mse2SxhQ8ABAEAAwIAA20AA-K_AwABFgQ # scenes/bg_109.jpg
+image AgADAgAD4asxG5nhsEr_iKsxakzzDjLbug8ABAEAAwIAA20AA9zmAAIWBA # scenes/bg_109.jpg | mion | 
 n "\"Так-так, а сейчас — урок готовки!{nw}"
 extend " ...Что ж, Сатоко...{nw}"
 extend " Что это?\""
 n "Мион ловко вытащила из своей коробки нечто зелёное с прилипшим к нему беконом."
 nvl clear
-image AgADAgAD0qwxGxQSSEojM03JEMmEsBf0tw8ABAEAAwIAA20AA8zvAQABFgQ # scenes/bg_109.jpg | mion rika | 
+image AgADAgAD0asxGyRLsErSNPjbQO91J7XMtw8ABAEAAwIAA20AA4NcAgABFgQ # scenes/bg_109.jpg | mion rika | 
 n "\"...Но это же спа... гмммфхм...\""
-image AgADAgAD0awxGxQSSEpMfeMybZLlnt3YuQ8ABAEAAwIAA20AAwqRAAIWBA # scenes/bg_109.jpg | mion | 
+image AgADAgAD4asxG5nhsEr_iKsxakzzDjLbug8ABAEAAwIAA20AA9zmAAIWBA # scenes/bg_109.jpg | mion | 
 n "Поймавши взгляд Мион, я прикрыл рот Рике-тян за три десятых доли секунды."
 n "Ничего себе злодейка, испытывать Сатоко спаржей... ну даёт."
 nvl clear
-image AgADAgADa6sxGxvgSEoOQyIyKQuK7mKCCA4ABAEAAwIAA20AA_xaAwABFgQ # scenes/bg_109.jpg | mion satoko | 
+image AgADAgADVKsxGxJvsUopEhYJW0ljk9Hftw8ABAEAAwIAA20AA9FdAgABFgQ # scenes/bg_109.jpg | mion satoko | 
 n "\"Ну, это!{w=0.5}{nw}"
 extend " Ммм...{w=0.6}{nw}"
 extend " цветная капуста жёлтая, н-нет, зелёная...\""
@@ -761,7 +761,7 @@ extend " но зелёная тогда...{w=0.4}{nw}"
 extend " она...{w=0.4}{nw}"
 extend " ыааа...\""
 nvl clear
-image AgADAgAD06wxGxQSSEq65Ir_qmW7rOzstw8ABAEAAwIAA20AA-HzAQABFgQ # scenes/bg_109.jpg | mion satoko | 
+image AgADAgADVasxGxJvsUoE3fdtvc9cvGPdtw8ABAEAAwIAA20AA0dbAgABFgQ # scenes/bg_109.jpg | mion satoko | 
 n "\"А ты уверена, что знаешь разницу? Может, просто сдашься?\""
 n "{nw}"
 n "Да-а, не зря она глава класса"
@@ -772,13 +772,13 @@ nvl clear
 n "\"Я знаю!.."
 extend " ЗНАЮ же!!!\""
 n "\"Ну так поведай нам ответ, не томи!\""
-image AgADAgAD1KwxGxQSSEqT9HRBslwyZzCxhQ8ABAEAAwIAA20AA6ZUAwABFgQ # scenes/bg_109.jpg | mion satoko | 
+image AgADAgAD4qsxG5nhsEpab-rUP-wqxDgAAfIOAAQBAAMCAANtAAOFhQIAARYE # scenes/bg_109.jpg | mion satoko | 
 n "\"...Я знаю...... я знаю...{w=0.3}...{w=0.3} уааааа-а-а-а-а!!!\""
 n "Наконец, не выдержав, она разрыдалась."
 n "Вот сейчас она ведёт себя соответственно малому возрасту."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
-image AgADAgAD1awxGxQSSErlfoDkFTzXrzeDCA4ABAEAAwIAA20AAyhbAwABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
+image AgADAgADVqsxGxJvsUpZP5G7gQVNw8_y8Q4ABAEAAwIAA20AA_p7AgABFgQ # scenes/bg_108.jpg | rena | 
 n "\"...Ха...{w=0.8}{nw}"
 extend " хау-у-у... так, так мииилоо...\""
 n "При виде горько плачущей Сатоко Рэна сошла с ума."
@@ -788,17 +788,17 @@ n "{nw}"
 n "Какой же она выглядит счастливой, чёрт возьми..."
 n "Так улыбается, что, должно быть, если сейчас мир исчезнет, жалеть она ни о чём не станет."
 nvl clear
-image AgADAgAD1qwxGxQSSErY3XJlUfPRjIrstw8ABAEAAwIAA20AAxDzAQABFgQ # scenes/bg_108.jpg | rena satoko | 
+image AgADAgAD0qsxGyRLsEosukyIJ9Wwaffotw8ABAEAAwIAA20AA7NaAgABFgQ # scenes/bg_108.jpg | rena satoko | 
 n "\"Рэна-Рэна!"
 extend " Мии-Мии меня обижает!"
 extend " Уааааааааа!!!\""
 n "\"Миленько-о, ми-иленькооо!.."
 extend " Не волнуйся, малютка. Сестрёнка Рэна побьёт негодяев!\""
 nvl clear
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
-image AgADAgADbqsxGxvgSEqddnDGTyubfNTOuQ8ABAEAAwIAA20AAx6SAAIWBA # cg/renapan_x1.jpg
-image AgADAgAD16wxGxQSSEpp2elyJeqI2pHJuQ8ABAEAAwIAA20AAwKSAAIWBA # cg/renapan_x7.jpg
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
+image AgADAgADV6sxGxJvsUpjppc0ZEtrL7uACA4ABAEAAwIAA20AA_O9AwABFgQ # cg/renapan_x1.jpg
+image AgADAgAD06sxGyRLsEqFX8HbJqzQIJXVtw8ABAEAAwIAA20AA-xZAgABFgQ # cg/renapan_x7.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "БА-БА-БАМ!!!"
 n "Показалось, будто перед глазами вспыхнула молния."
 nvl clear
@@ -815,23 +815,23 @@ n "Тут силы закончились, и наши затылки однов
 extend "{w=1.0}"
 n "Думаю, отныне, находясь в зоне поражения Рэны, её лучше остерегаться..."
 nvl clear
-image AgADAgADoKsxGw9ZUUqdUXFzwFbTwWL9tw8ABAEAAwIAA20AAzT2AQABFgQ # scenes/bg_108.jpg
-image AgADAgAD1awxGxQSSErlfoDkFTzXrzeDCA4ABAEAAwIAA20AAyhbAwABFgQ # scenes/bg_108.jpg | rena | 
+image AgADAgADQ6sxGxJvsUqmgq1Mpm3oS9tBhA8ABAEAAwIAA20AA15zBAABFgQ # scenes/bg_108.jpg
+image AgADAgADVqsxGxJvsUpZP5G7gQVNw8_y8Q4ABAEAAwIAA20AA_p7AgABFgQ # scenes/bg_108.jpg | rena | 
 n "\"Видишь, Сатоко-тян, я их побила!"
 extend " ......А-а-ах-х-х... ты такая мииилая!"
 extend " Рэна забирает тебя домо-ой!!!\""
-image AgADAgADb6sxGxvgSEpv496GhrsLGzjKtw8ABAEAAwIAA20AA2f3AQABFgQ # scenes/bg_108.jpg | rena satoko | 
+image AgADAgADWKsxGxJvsUrVKnr4A7O7a7TFtw8ABAEAAwIAA20AAztbAgABFgQ # scenes/bg_108.jpg | rena satoko | 
 n "Сатоко украдкою показала нам язык — так, чтобы та не видела."
 n "З-засранка!! Вот так обвела Рэну вокруг пальца!!!"
 n "{nw}"
 n "Рика-тян присела подле, молча поглаживая наши синяки..."
 nvl clear
 $ save_name = "Глава о Похищенных Демонами.\nДень Первый, возвращение домой"
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
-image AgADAgADgasxGw9ZUUrjibSNwUHeQmjxug8ABAEAAwIAA20AA2iAAAIWBA # scenes/bg_042.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
+image AgADAgADKasxGxJvsUpGfyBAs-MdyPA6hA8ABAEAAwIAA20AAzdxBAABFgQ # scenes/bg_042.jpg
 n "Сколь бы длинной да извилистой ни была дорога, если ты идёшь по ней домой, она всегда коротка."
 n "Тени нашей троицы протянулись по земле."
-image AgADAgADcKsxGxvgSEokwjVD1adVoO328Q4ABAEAAwIAA20AA8UYAgABFgQ # scenes/bg_042.jpg | rena | 
+image AgADAgADWasxGxJvsUrmGljA0WIj4Rrpug8ABAEAAwIAA20AAzXnAAIWBA # scenes/bg_042.jpg | rena | 
 n "\"Скажи, Кейти-кун, ты завтра свободен?..{w=0.3} ...свободен?\""
 n "\"Чего?..\""
 n "Не ожидавши от неё таких решительных действий, я невольно покраснел."
@@ -839,7 +839,7 @@ n "{nw}"
 n "Ра-разве н-на свидание не полагается приглашать гораздо скромнее??"
 nvl clear
 n "Некоторое время Рэна смотрела на меня, не знающего, что сказать, а затем, осознав, как я воспринял её вопрос, покрылась краской."
-image AgADAgADcasxGxvgSEpUsn_lLkGNDlbrug8ABAEAAwIAA20AAweBAAIWBA # scenes/bg_042.jpg | rena | 
+image AgADAgAD46sxG5nhsEo0cXd4cHXihsvgug8ABAEAAwIAA20AA1XiAAIWBA # scenes/bg_042.jpg | rena | 
 n "\"...Э... а... н-нет, я про другое... ты не так понял!..\""
 n "{nw}"
 n "Видать, потайного смысла её слова не несли."
@@ -852,12 +852,12 @@ nvl clear
 n "\"...К-Кейти-кун, отчего ты так расстроился, отчего?{w=0.3}{nw}"
 extend " Отчего?!"
 extend " Мии-тян!..\""
-image AgADAgAD2KwxGxQSSEpv6YaYwKvwW5H2tw8ABAEAAwIAA20AA2n0AQABFgQ # scenes/bg_042.jpg | mion rena | 
+image AgADAgAD1KsxGyRLsEpSMJ1gedqqoSfbuQ8ABAEAAwIAA20AA275AAIWBA # scenes/bg_042.jpg | mion rena | 
 n "\"Пффф...{w=0.5} А-а-а-ха-ха-ха-ха-ха!\""
 n "Не выдержав, Мион застучала меня по спине."
 n "\"О как! Дядя Мион и не думал, что ты окажешься столь норовист."
 extend " Уа-а-аха-ха-ха!\""
-image AgADAgAD2awxGxQSSEq0e9lt25PkurrPug8ABAEAAwIAA20AA4yUAAIWBA # scenes/bg_042.jpg | mion rena | 
+image AgADAgAD1asxGyRLsEqwnZ008AeQ5SDQug8ABAEAAwIAA20AAzv6AAIWBA # scenes/bg_042.jpg | mion rena | 
 n "\"...Э? ...Э? Что? Что?! Что такое?!\""
 n "Рэна, не уловив сути, отчаянно выспрашивала согнувшуюся от смеха Мион."
 nvl clear
@@ -865,10 +865,10 @@ n "Я тоже рассмеялся, чувствуя себя нескольк�
 n "\"Шучу, не обращай внимания. ...Извини.\""
 n "Такая миленькая глупышка."
 nvl clear
-image AgADAgADcqsxGxvgSEpsZrOoncwzm8rttw8ABAEAAwIAA20AAz_1AQABFgQ # scenes/bg_042.jpg | mion rena | 
+image AgADAgADWqsxGxJvsUqeLcsbd1xnjQ_5tw8ABAEAAwIAA20AA41TAgABFgQ # scenes/bg_042.jpg | mion rena | 
 n "\"Э?.. Э-э?.. ...Ты пошутил? Когда? ...когда?!\""
 n "\"Ну, хм, где-то посередине.\""
-image AgADAgADc6sxGxvgSEoV8_am-Ziq63vvug8ABAEAAwIAA20AA2yAAAIWBA # scenes/bg_042.jpg | mion rena | 
+image AgADAgAD1qsxGyRLsEoQwKHKUupQz4Q_hA8ABAEAAwIAA20AA6VvBAABFgQ # scenes/bg_042.jpg | mion rena | 
 n "\"По-се-ре-диииине?"
 extend " Кей-тян, так, значит, сначала, когда покраснел, ты не притворялся?\""
 n "\"...Что?.. Т-то есть?.....\""
@@ -879,13 +879,13 @@ n "Каждое слово только делает яму глубже..."
 n "Моя неосторожная поспешность приводит ко всё худшим и худшим последствиям."
 n "Короче, Мион ещё долго надо мной насмехалась..."
 nvl clear
-image AgADAgAD2qwxGxQSSEoWKgaDt0sO97mthQ8ABAEAAwIAA20AA-tVAwABFgQ # scenes/bg_039.jpg
+image AgADAgAD5KsxG5nhsErxdRw_xa1cCT7Tug8ABAEAAwIAA20AAw_5AAIWBA # scenes/bg_039.jpg
 n "\"......Ну да ладно. Рэна, так почему ты спрашивала, свободен ли я?\""
-image AgADAgADdKsxGxvgSEonXEWt-1bBL0XStw8ABAEAAwIAA20AA2zyAQABFgQ # scenes/bg_039.jpg | rena | 
+image AgADAgADW6sxGxJvsUolC2nSPGW4Dhjwug8ABAEAAwIAA20AAyvnAAIWBA # scenes/bg_039.jpg | rena | 
 n "\"А? Ой... а мы про что говорили?..\""
 n "Кажись, Мион так долго меня дразнила, что даже начавшая разговор уже забыла, что сказать хотела..."
 nvl clear
-image AgADAgAD26wxGxQSSEpt1CbkzKR6n_zQuQ8ABAEAAwIAA20AA8aRAAIWBA # scenes/bg_039.jpg | mion rena | 
+image AgADAgADXKsxGxJvsUpOfUbRtVvR_vPVtw8ABAEAAwIAA20AA2JTAgABFgQ # scenes/bg_039.jpg | mion rena | 
 n "\"Скажи-тко, Кей-тян, ты ведь ещё не особо знаешь Хинамидзаву?\""
 n "Она права."
 n "Как ни стыдно, однако ж, если б мне завязали глаза и трижды раскрутили (как в игре с разбиванием арбуза), я точно потерялся бы."
@@ -894,19 +894,19 @@ n "\"Оно так. Я вообще не в курсе, куда по какой
 n "\"Вот-вот. Потому-то, Кейти-кун, мы и хотели с Мии-тян показать тебе завтра Хинамидзаву и рассказать всё, что про неё знаем...\""
 n "«Везёт мне!» — такая вот искренне радостная мысль у меня возникла."
 nvl clear
-image AgADAgAD3KwxGxQSSEpJdLIBaqW6A9zTtw8ABAEAAwIAA20AAxD1AQABFgQ # scenes/bg_039.jpg | mion rena | 
+image AgADAgAD16sxGyRLsEqFo99wPHEMQx1BhA8ABAEAAwIAA20AA_JsBAABFgQ # scenes/bg_039.jpg | mion rena | 
 n "\"Так ты идёшь?\""
 n "\"Коль буду свободен.\""
-image AgADAgAD3awxGxQSSEpg5rPvPgfq853jug8ABAEAAwIAA20AA7eCAAIWBA # scenes/bg_039.jpg | mion rena | 
+image AgADAgAD2KsxGyRLsErw5idRBgd4RvfZuQ8ABAEAAwIAA20AAxj3AAIWBA # scenes/bg_039.jpg | mion rena | 
 n "\"Эй, тебя девушка просит, вежливо причём!\""
 n "\"Коль буду свободен.\""
-image AgADAgADdasxGxvgSEoWnFDcA3fAoTlBhA8ABAEAAwIAA20AA5kKBAABFgQ # scenes/bg_039.jpg | mion rena | 
+image AgADAgADXasxGxJvsUqLC4oeYtbEFfTntw8ABAEAAwIAA20AAzpgAgABFgQ # scenes/bg_039.jpg | mion rena | 
 n "\"Ты ведь завтра свободен, так?\""
 n "\"Сказал же — коль буду свободен.\""
 n "Я нарочно бросал вызов Мион своим упрямым ответом."
 n "Поди тут не улыбнись тому, как, прославляя свою удачу в душе, я не мог просто взять и честно сказать, что с радостью соглашусь."
 nvl clear
-image AgADAgAD3qwxGxQSSErTNTTFzK5VQL3Ttw8ABAEAAwIAA20AA-P2AQABFgQ # scenes/bg_039.jpg | mion rena | 
+image AgADAgADXqsxGxJvsUp2pntkVERNf43nug8ABAEAAwIAA20AA-vjAAIWBA # scenes/bg_039.jpg | mion rena | 
 n "\"...Кейти-кун... так ты занят?{w=0.3}{nw}"
 extend " ......занят?\""
 n "Заглядывая мне в лицо, Рэна смятенно перебила нашу с Мион перебранку."
@@ -914,11 +914,11 @@ n "Достаточно дразнить её на сегодня, буду-ка
 nvl clear
 n "\"Та не... снова шучу."
 extend " Я завтра свободен.\""
-image AgADAgADdqsxGxvgSEr27SgW6Ux52HnRug8ABAEAAwIAA20AA56VAAIWBA # scenes/bg_039.jpg | mion rena | 
+image AgADAgADX6sxGxJvsUrGvgikyJoQyz-uhQ8ABAEAAwIAA20AA1q_AwABFgQ # scenes/bg_039.jpg | mion rena | 
 n "\"Ура!..\""
 n "На её лице засияла широченная, беспечная улыбка."
 nvl clear
-image AgADAgADd6sxGxvgSEopuL3js6YUoEjXtw8ABAEAAwIAA20AAz_xAQABFgQ # scenes/bg_039.jpg | mion rena | 
+image AgADAgAD2asxGyRLsEpNtXPW1R49LEDxtw8ABAEAAwIAA20AA4RXAgABFgQ # scenes/bg_039.jpg | mion rena | 
 n "\"Эге-ге, приятель!"
 extend " Ты чего так по-разному к нам относишься?!\""
 n "{nw}"
@@ -926,11 +926,11 @@ n "Столько поважничав перед Мион, сразу сдав�
 n "Впрочем, вид раздосадованной Мион здорово веселил."
 n "Я подтолкнул Рэну и ускорил шаг, оставляя Мион позади."
 nvl clear
-image AgADAgADeKsxGxvgSEqrH7fHZhT_K1OehQ8ABAEAAwIAA20AA8hYAwABFgQ # scenes/bg_039.jpg | rena | 
+image AgADAgAD2qsxGyRLsErHMRbVePqer8nKuQ8ABAEAAwIAA20AA-z3AAIWBA # scenes/bg_039.jpg | rena | 
 n "\"Пойдём, Рэна."
 extend " Пойдём завтра гулять! Только мы вдвоём, ты и я. А задиру Мион брать с собой не будем.\""
 nvl clear
-image AgADAgAD36wxGxQSSEo4iLaKUaJoQmL_8Q4ABAEAAwIAA20AA84lAgABFgQ # scenes/bg_039.jpg | rena | 
+image AgADAgADYKsxGxJvsUo6YF4-kxzfb-X-tw8ABAEAAwIAA20AA4hYAgABFgQ # scenes/bg_039.jpg | rena | 
 n "\"...Э..{w=0.3}{nw}"
 extend " ах...{w=0.5}{nw}"
 extend " Кейти-кун, если ты так хочешь...\""
@@ -943,14 +943,14 @@ extend " его тебе приготовит!..{w=0.3}{nw}"
 extend " ...приготовит!\""
 nvl clear
 n "\"Рэна! И ты меня не забывай! А то я всем расскажу, что вы вдвоём пошли в гостиницу и...\""
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
-image AgADAgADq6sxGw9ZUUqtYm7B1t0IKuD38Q4ABAEAAwIAA20AAzoaAgABFgQ # efe/furiker_b.jpg
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
-image AgADAgAD2qwxGxQSSEoWKgaDt0sO97mthQ8ABAEAAwIAA20AA-tVAwABFgQ # scenes/bg_039.jpg
-image AgADAgAD4KwxGxQSSEp9QaHRgZFB7k3_8Q4ABAEAAwIAA20AA_cgAgABFgQ # scenes/bg_039.jpg | rena | 
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
+image AgADAgADYasxGxJvsUrxhG1XnxCFvwf28Q4ABAEAAwIAA20AA1h5AgABFgQ # efe/furiker_b.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
+image AgADAgAD5KsxG5nhsErxdRw_xa1cCT7Tug8ABAEAAwIAA20AAw_5AAIWBA # scenes/bg_039.jpg
+image AgADAgADYqsxGxJvsUqm7EeOEWDty4T6tw8ABAEAAwIAA20AAxNZAgABFgQ # scenes/bg_039.jpg | rena | 
 n "\"Да! Рэна побежит домой и приготовит еду!.."
 extend " Не могу дождаться! Пока, Кейти-кун. Пока, Мии-тян! Прощайте!\""
-image AgADAgAD2qwxGxQSSEoWKgaDt0sO97mthQ8ABAEAAwIAA20AA-tVAwABFgQ # scenes/bg_039.jpg | | 
+image AgADAgAD5KsxG5nhsErxdRw_xa1cCT7Tug8ABAEAAwIAA20AAw_5AAIWBA # scenes/bg_039.jpg | | 
 n "Рэна ускакала прочь, словно лунный кролик."
 n "{nw}"
 n "Облако пыли осело, оставив меня наедине с Мион, снова избитой и плашмя валявшейся на земле."
@@ -976,9 +976,9 @@ extend " Дядька Мион в тебя верит...\""
 n "{nw}"
 n "И тогда мы с Мион крепко-накрепко решили научиться давать отпор смертоносному удару Рэны..."
 nvl clear
-image AgADAgADeasxGxvgSEoh1elB51e_LFj9tw8ABAEAAwIAA20AA3n0AQABFgQ # scenes/bg_039.jpg | | cinema 
-image AgADAgAD4awxGxQSSEoetXQ_nb_i32Ptug8ABAEAAwIAA20AAxmDAAIWBA # scenes/bg_039.jpg | | cinema title02 
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADY6sxGxJvsUoDnRIomiyA38fduQ8ABAEAAwIAA20AA5b5AAIWBA # scenes/bg_039.jpg | | cinema 
+image AgADAgAD5asxG5nhsEpsOzrAkEBrfOPJuQ8ABAEAAwIAA20AA3r3AAIWBA # scenes/bg_039.jpg | | cinema title02 
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 #show tips_received
 #show text "Почему здесь все классы вперемешку?\nМы свободны выбирать себе форму?"
 call screen day_completed(tips="onikakusi")

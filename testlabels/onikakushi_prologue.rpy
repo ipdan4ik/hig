@@ -1,8 +1,8 @@
 $ save_name = "Пролог"
 $ mouse_visible = False
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
-image AgADAgADXKsxGxvgSEqNq3aLp-Xv7VqBCA4ABAEAAwIAA20AA29ZAwABFgQ # efe/si_onikakusi.jpg
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
+image AgADAgADuasxGyRLsErORm75y9GVt8Hfug8ABAEAAwIAA20AA4XmAAIWBA # efe/si_onikakusi.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "{font=times.ttf}Вначале было лишь лёгкое беспокойство.{/font}"
 n "{font=times.ttf}Он и не думал причинять кому-либо зла.{/font}"
 n "{font=times.ttf}Но из беспокойства родилось одиночество,{/font}"
@@ -11,12 +11,12 @@ n "{font=times.ttf}Вскоре тёмные, кровожадные мысли 
 n "{font=times.ttf}К прежней жизни уже не вернуться.{/font}"
 n "{font=times.ttf}Парень ступает всё дальше.{/font}"
 n "{font=times.ttf}Даже не замечая разверстого впереди колодца в ад.{/font}"
-image AgADAgADvKsxGw9ZUUqPcwqXQj3ucK_-8Q4ABAEAAwIAA20AA3wgAgABFgQ # efe/chapter_onik_2.jpg
+image AgADAgADIasxGxJvsUqTZpj-Ax6kQenWug8ABAEAAwIAA20AA-v3AAIWBA # efe/chapter_onik_2.jpg
 n "{font=times.ttf}Трагедия, порождённая желанием верить.{/font}"
-n "{font=times.ttf}Льющиеся слёзы — слёзы раскаяния, обиды ли?{/font}"
-image AgADAgADsKwxGxQSSEpqRoqAt2mrn3rPug8ABAEAAwIAA20AAwiSAAIWBA # efe/tyuui_disclaimer.jpg
-image AgADAgADXasxGxvgSEq6xB5fZ1QFGrqfhQ8ABAEAAwIAA20AA3pUAwABFgQ # efe/tyuui_s58.jpg
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+n "{font=times.ttf}Льющиеся слёзы — слёзы раскаяния, обиды ли?{/font}" at truecenter
+image AgADAgADIqsxGxJvsUrKDSPWgW8VxZFLhA8ABAEAAwIAA20AA0lwBAABFgQ # efe/tyuui_disclaimer.jpg
+image AgADAgADI6sxGxJvsUpD0mw2e-_m-rXHtw8ABAEAAwIAA20AAw1SAgABFgQ # efe/tyuui_s58.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 $ mouse_visible = True
 n "\n\n\n\nЕсли уж страданий не избежать...{nw}{w=2.0}"
 n "{nw}"
@@ -38,7 +38,7 @@ n "Пропитывая лицо, из моих глаз вытекают слё
 nvl clear
 n "\n\n\n\nМои однообразные движения прекратились, и в комнате стихло.{nw}{w=4.0}"
 nvl clear
-image AgADAgADvasxGw9ZUUopgF52jJdsLA5EhA8ABAEAAwIAA20AA1kIBAABFgQ # scenes/bg_204.jpg
+image AgADAgAD06sxG5nhsEo3a_knvrsMgF_68Q4ABAEAAwIAA20AAxWBAgABFgQ # scenes/bg_204.jpg
 n "\n\n\nВсё, что я слышу, — отвратительно громкий плач вечерних цикад...{nw}{w=2.0}"
 n "{nw}"
 n "Кажется...{nw}{w=1.5}"
@@ -115,7 +115,7 @@ n "{nw}"
 n "Мой первый и последний......{nw}{w=1.0}"
 extend " букет цветов.{nw}{w=4.0}"
 nvl clear
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 n "\n\n\nНе знаю точно...{nw}{w=1.0}"
 extend " Но, кажется...{nw}{w=2.0}"
 n "{nw}"
@@ -123,7 +123,7 @@ n "{nw}"
 n "{cps=*0.4}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{w=0.05}.{/cps}{nw}{w=1.0}"
 extend "я любил тебя.{nw}{w=3.0}"
 nvl clear
-image AgADAgADsawxGxQSSErw5iSTya-WSh_UuQ8ABAEAAwIAA20AA4qSAAIWBA # efe/aka1.jpg
-image AgADAgADXqsxGxvgSEpoj3NEKBk2zo7xug8ABAEAAwIAA20AA92CAAIWBA # efe/aka1.jpg | | title 
-image AgADAgADIKsxGxvgSEpa0kDxDtGtqT7y8Q4ABAEAAwIAA20AAwoWAgABFgQ # efe/black.jpg
+image AgADAgADJKsxGxJvsUo20E492EHIIGzRug8ABAEAAwIAA20AA6P2AAIWBA # efe/aka1.jpg
+image AgADAgADJasxGxJvsUof8_Uc035O6Yrdtw8ABAEAAwIAA20AA5NYAgABFgQ # efe/aka1.jpg | | title 
+image AgADAgADGawxGxJvqUrkc4W5hsIYJBHptw8ABAEAAwIAA20AAxJYAgABFgQ # efe/black.jpg
 jump onik_day0

@@ -133,7 +133,7 @@ def load_data():
 
 
 @bot.message_handler(commands=['save'])
-def command_save(message):
+def command_save():
     save_data()
 
 

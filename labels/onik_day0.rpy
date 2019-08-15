@@ -84,7 +84,7 @@ nvl clear
 scene bg 216
 n "Мой новый дом — Хинамидзава."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 scene black
 jump onik_day01

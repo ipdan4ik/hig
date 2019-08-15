@@ -539,7 +539,7 @@ n "\"Ч-Чё за дела?.."
 extend " Ты даже не дерёшься.\""
 show rika se de_a1 at sprava
 n "\"...Кейти, похоже, ты ещё не совсем здоров.\""
-show rena se def_b1 at central behind rika
+show rena se def_b1 at central
 n "\"Угу. Потому......"
 extend " мы сегодня же приведём его в чувство.\""
 n "Кто-то вдруг хлопает меня по плечу. Ох, больно..."
@@ -585,8 +585,8 @@ nvl clear
 n "А вот и учительница."
 n "Поинтересовавшись о моём самочувствии, начинает урок, и возобновляется привычная школьная скукота."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 scene black
 $ save_name = "Глава о Похищенных Демонами.\nДень Тринадцатый, тяжкие думы"
 scene bg 109
@@ -1033,8 +1033,8 @@ n "Меня не убить."
 extend " ...Хотя бы пока не узнаю, за что. ...Безо всяких сомнений."
 nvl clear
 scene bg 082 night
-show cinema
-show title02
+show cinema at top
+show title02 at top
 #scene black
 #show tips_received
 #show text "Он выглядит не очень весёлым"

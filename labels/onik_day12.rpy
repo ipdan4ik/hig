@@ -632,9 +632,9 @@ nvl clear
 n "\"......Твою мать...... Я... Я умирать не хочу...\""
 n "Какое-то время стоял я там, пялясь на лужу, оставленную машинным кондиционером Ооиси-сана......."
 nvl clear
-show cinema
-show title02
-show black behind title02
+show cinema at top
+show title02 at top
+show black
 scene black
 $ save_name = "Глава о Похищенных Демонами.\nДень Двенадцатый, посещение"
 scene bg 080
@@ -837,8 +837,6 @@ scene bg 021
 n "Внезапно дверь рванулась обратно! Сердце едва не выскочило из груди."
 scene black
 scene cg mion_eye
-else
-show mion si hi_a1 at central
 n "Из дверной щели бил сквозь меня пронзительный взгляд глаза Мион."
 nvl clear
 n "\"Свидимся, Кей-тян.\""
@@ -846,8 +844,6 @@ n "\"...А... а-а...\""
 n "\"{i}{b}.........Плохо будет{/b}, если завтра ты не придёшь на уроки, {b}понял?{/b}{/i}\""
 nvl clear
 scene bg 021
-scene bg 022
-else
 scene bg 022
 n "*Бам*."
 n "......Дверь наконец захлопнулась."
@@ -1141,8 +1137,8 @@ extend " ...Не зная даже, за что!!!"
 nvl clear
 n "Я погрузился в неспокойный сон, словно затянутый бездонным болотом безнадёги, страха и ненависти........."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 #scene black
 #show tips_received
 #show text "Наркотик, заставляющий\nпокончить жизнь самоубийством?\nЗапугивание"

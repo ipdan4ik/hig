@@ -428,9 +428,9 @@ n "\"Что? Вы нашли Кейти-сана?!!\""
 n "Слышен далёкий топот Сатоко."
 n "Рика-тян позволила Рэне ускользнуть, вместо неё наметив меня в жертвы."
 nvl clear
-show rika ts ni_a1 at sleva behind satoko
+show rika ts ni_a1 at sleva
 n "\"Ыууыыырргх...... Аууууыыыыы......\""
-show mion ts aku_a1 at central behind satoko
+show mion ts aku_a1 at central
 n "\"...Спу-ска-а-ай-ся-я... Кей-тяааан...\""
 n "Бродя вокруг склада, троица зомби нараспев подвывала."
 nvl clear
@@ -578,9 +578,9 @@ n "\"П-п-прости, Кейти-кун... п-по-понимаешь, я п-
 hide rena
 show satoko ts aku_a1 at sprava
 n "\"А теперь... покорно позвольте себя съесть!!!.....\""
-show rika ts wa_a1 at sleva behind satoko
+show rika ts wa_a1 at sleva
 n "\"...Стань другом для нас... вступай в наши ряды.\""
-show mion ts aku_a2 at central behind satoko
+show mion ts aku_a2 at central
 n "\"Ну, Рэна... молись!!!"
 extend " Ах-ха-ха-хаа!!!!!\""
 nvl clear
@@ -647,9 +647,8 @@ extend " ААААааААаАаААА!!!.....\""
 n "Получив свою долю ледяного страха, я про себя поклялся в следующий раз напугать Мион до смерти."
 nvl clear
 scene bg 028
-show cinema
-show title02
-show black behind title02
+show cinema at top
+show title02 at top
 scene black
 $ save_name = "Глава о Похищенных Демонами.\nДень Четвёртый, спасение Кента-куна"
 scene bg 108
@@ -948,8 +947,8 @@ nvl clear
 n "{i}«...Ты меня... предупреждаешь?»{/i}"
 n "Не вписываясь в нынешний настрой, слова Томитаке-сана продолжали назойливо зудеть за ухом..."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 #scene black
 #show tips_received
 #show text "Что за имя такое — Рэна?"

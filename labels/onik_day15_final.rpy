@@ -450,9 +450,9 @@ n "Или... кто-то стукнул меня по затылку?"
 n "Комната поплыла от головокружения перед глазами......."
 nvl clear
 scene white
-show cinema
-show title02
-show black behind title02
+show cinema at top
+show title02 at top
+show black
 scene black
 $ save_name = "Глава о Похищенных Демонами.\nДень Последний, убийца"
 n "......Я уселся на корточки, а когда сознание возвратилось... комната выглядела совершенно другой."
@@ -495,7 +495,7 @@ n "......С чего мне грустить?.."
 n "Я не понимаю."
 extend " ......Я не понимаю......"
 nvl clear
-show bg 080 _door red as redcolor
+show bg 080 _door red
 alpha 0.0
 linear 1.0 alpha 1.0
 n "Девочка, подружившаяся со мною, кому нипочём была разница в поле и возрасте."
@@ -511,7 +511,7 @@ n "...Рэна."
 nvl clear
 scene black
 scene bg 081 _door
-show bg 081 _door red as redcolor
+show bg 081 _door red
 alpha 0.0
 linear 1.0 alpha 1.0
 n "...Так же, как Мион, она прилегла в луже крови... рядом с моими ногами."
@@ -572,7 +572,7 @@ n "Спокойно."
 n "Спокойно..."
 n "Повторяя мысленно свою мантру, я взял себя в руки..."
 nvl clear
-hide redcolor
+hide bg 081 _door red
 n "Цвет и запах в конце концов таки воротились в серую комнату."
 n "И ещё... я вспомнил случившееся, когда всё побелело..."
 nvl clear
@@ -1045,8 +1045,8 @@ extend " {i}Простите меня.......{/i}"
 n "{nw}"
 n "Казалось, знали только поющие на закате цикады."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 scene black
 $ day_result = "onik_day15_epilogue"
 call screen day_completed(tips="onikakusi")

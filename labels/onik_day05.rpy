@@ -420,7 +420,7 @@ n "После длительного безмолвия в класс након
 n "{cps=*0.6}\"......Я... погладила...{w=0.4} ...До...{w=0.5}... статочно?!...\"{/cps}"
 n "И Мион пала навзничь."
 nvl clear
-show bg 108
+scene bg 108
 show satoko se aku_a1 at sprava
 n "\"Хорошо же, она ещё жива."
 extend " Продолжаем!!!\""
@@ -958,9 +958,8 @@ n "И пали сумерки, и раздался над Хинамидзаво
 nvl clear
 scene white
 scene bg 211
-show cinema
-show title02
-show black behind title02
+show cinema at top
+show title02 at top
 scene black
 $ save_name = "Глава о Похищенных Демонами.\nДень Пятый, и снова домой"
 scene bg 041 zakat
@@ -1104,8 +1103,8 @@ hide mion
 n "Мы беспечно болтали о том и о сём."
 n "А шёпот вечерних цикад со свежим воздухом ласково подвели окончание длинного и жаркого дня."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 #scene black
 #show tips_received
 #show text "Извещение"
@@ -1113,4 +1112,4 @@ show title02
 #hide text
 $ day_result = "onik_day09"
 call screen day_completed(tips="onikakusi")
-jump onik_day05
+jump onik_day09

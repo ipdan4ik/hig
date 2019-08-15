@@ -864,8 +864,6 @@ n "{nw}"
 n "В тот миг, когда она повернулась ко мне лицом, сквозь всё тело прошёл электрический ток!!..."
 nvl clear
 show rena se hiwa_a1
-else
-show rena se hiwa_a1
 n "\"Я же говорила тебе,"
 extend " Кейти-кун.\""
 nvl clear
@@ -932,8 +930,8 @@ n "Чего...... не стану я делать??..."
 show rena se hi_a1
 n "\"Переводиться.\"{w=3.0}"
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 #show black behind title02
 #scene black
 jump onik_day14_evening

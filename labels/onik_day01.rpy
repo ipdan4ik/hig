@@ -976,8 +976,8 @@ extend " Дядька Мион в тебя верит...\""
 n "{nw}"
 n "И тогда мы с Мион крепко-накрепко решили научиться давать отпор смертоносному удару Рэны..."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 scene black
 #show tips_received
 #show text "Почему здесь все классы вперемешку?\nМы свободны выбирать себе форму?"

@@ -203,12 +203,12 @@ nvl clear
 show satoko se na_b1
 n "\"У, уааааАААА!!!"
 extend " Кейти-сан ко мне пристааааё-ё-ёт!!...\""
-show bg 108 as bg_temp
+show bg 108
 show chie si_maji at central
 n "\"Эй!"
 extend " Маэбара-кун, младших задирать нельзя!"
 extend " Немедленно извинись!\""
-hide bg_temp
+hide bg 108
 hide chie
 show satoko se aku_b1
 n "Я углядел, как Сатоко высунула язык: «Бе-е-е». ...Вот ведь ннннаглая мелочь!!!"
@@ -300,7 +300,7 @@ n "\"Я не против, но..."
 extend " Рэна-сан, Рика, вы как?\""
 show rena se ko_a2 at sprava
 n "\"Хммм...{w=0.8} Кейти-кун, если ты настаиваешь... можно немножечко и поиграть.\""
-show rika se de_a1 at central behind rena
+show rika se de_a1 at central
 n "\"......Лично я считаю... что лучше дождаться, пока все не соберутся.\""
 n "Хм... ну, раз ты так говоришь... хм-м-м."
 nvl clear
@@ -349,7 +349,7 @@ extend " Кейти-сан, вы за это заплаааатитеее!!!\""
 show rika se ni_a1 at sleva
 n "\"...Тебя так часто обижали, очень часто же."
 extend " Бедненькая ты, бедненькая.\""
-show rena se hau_a1 at central behind satoko
+show rena se hau_a1 at central
 n "\"Ахахахаха~{font=DejaVuSans.ttf}☆{/font}... мииилоо, милоооо... {font=DejaVuSans.ttf}☆{/font}\""
 nvl clear
 $ save_name = "Глава о Похищенных Демонами.\nДень Одиннадцатый, шестое имя"
@@ -423,7 +423,7 @@ nvl clear
 n "Тая внутри печаль и раздражение... с каким выражением я на неё смотрел?.."
 nvl clear
 hide rena
-show rena se ko_a2 at central behind black
+show rena se ko_a2
 hide black
 n "\"К...... Кейти-кун... у тебя лицо страшное."
 extend " ......Почему? ...почему?\""
@@ -701,9 +701,9 @@ n "Выдавливая голос наружу мелкими выдохами,
 n "{nw}"
 n "Кем была та штука...... которая походила на Рюгу Рэну?..{w=1.5} Кем?!"
 nvl clear
-show cinema
-show title02
-show black behind title02
+show cinema at top
+show title02 at top
+show black
 scene black
 $ save_name = "Глава о Похищенных Демонами.\nДень Одиннадцатый, вечерний звонок"
 scene bg 080
@@ -1105,8 +1105,8 @@ n "Зачем она там стояла?"
 nvl clear
 n "Дурным знамением вьющийся пар поднялся из чашек, наполняя комнату запахом чая......."
 nvl clear
-show cinema
-show title02
+show cinema at top
+show title02 at top
 #scene black
 #show tips_received
 #show text "Предписание из Главного управления"
